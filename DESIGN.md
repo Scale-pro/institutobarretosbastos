@@ -220,3 +220,13 @@ The design uses a soft, disciplined geometry (`roundedness: 1`).
 
 ### Medical Team / Physician Profile Module
 - Structured profile framing displaying full academic title, CFM/RQE validation, institutional memberships, and an organic portrait framed with an architectural 4px corner radius.
+
+## Conversão, acessibilidade e qualidade
+
+- **Hierarquia do hero:** apresentar em um único H1 o benefício principal em linguagem clara, acompanhado por uma explicação breve e uma CTA primária visível. Repetir o mesmo texto de CTA ao longo da página e manter links secundários visualmente discretos.
+- **Ritmo visual:** organizar o conteúdo em uma sequência curta — proposta de valor, diferenciais, equipe, especialidades, método e agendamento. Consolidar módulos repetidos e limitar grades a poucos itens escaneáveis.
+- **Prova social responsável:** usar apenas depoimentos publicados com autorização e informações verificáveis. Não inventar avaliações, resultados clínicos, selos ou credenciais; exibir CRM/RQE somente após confirmação dos dados.
+- **Formulários:** pedir apenas nome, telefone e motivo do contato; deixar detalhes adicionais opcionais. Usar rótulos persistentes, indicar campos obrigatórios e explicar o uso dos dados sem solicitar histórico clínico desnecessário.
+- **Campanhas e SEO local:** alinhar cada anúncio a uma oferta, headline e CTA consistentes. Usar título e descrição únicos, um H1, conteúdo local útil e dados estruturados somente quando os dados do estabelecimento estiverem confirmados.
+- **Mobile e desempenho:** priorizar leitura e CTA em telas pequenas, manter controles com pelo menos 44px de altura, carregar imagens abaixo da primeira dobra sob demanda e priorizar a imagem principal. Reservar dimensões para imagens, oferecer foco visível por teclado e respeitar `prefers-reduced-motion`.
+- **Contraste:** manter texto normal com contraste mínimo de 4,5:1 e texto grande com 3:1, sem depender apenas de cor para comunicar estado ou importância.
