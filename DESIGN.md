@@ -121,9 +121,9 @@ typography:
     lineHeight: 24px
   body-sm:
     fontFamily: Plus Jakarta Sans
-    fontSize: 13px
+    fontSize: 14px
     fontWeight: '400'
-    lineHeight: 20px
+    lineHeight: 22px
   label-md:
     fontFamily: Plus Jakarta Sans
     fontSize: 14px
