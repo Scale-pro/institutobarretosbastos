@@ -1,53 +1,69 @@
 ---
 name: Atelier Médico de Longevidade
 colors:
-  surface: '#f5f5f5'
-  surface-dim: '#e0e0e0'
-  surface-bright: '#fafafa'
-  surface-container-lowest: '#ffffff'
-  surface-container-low: '#f1f1f1'
-  surface-container: '#ececec'
-  surface-container-high: '#e5e5e5'
-  surface-container-highest: '#e0e0e0'
-  on-surface: '#181d1c'
-  on-surface-variant: '#424242'
-  inverse-surface: '#2c3130'
-  inverse-on-surface: '#f3f3f3'
-  outline: '#727876'
-  outline-variant: '#c7c7c7'
-  surface-tint: '#4b635c'
-  primary: '#001611'
-  on-primary: '#ffffff'
-  primary-container: '#132b25'
-  on-primary-container: '#d6d6d6'
-  inverse-primary: '#c8c8c8'
-  secondary: '#725b24'
-  on-secondary: '#ffffff'
-  secondary-container: '#fcdc98'
-  on-secondary-container: '#775f28'
-  tertiary: '#001610'
-  on-tertiary: '#ffffff'
-  tertiary-container: '#0a2c23'
-  on-tertiary-container: '#d2d2d2'
+  racing-green: '#0a211a'
+  racing-green-dark: '#071813'
+  racing-green-step-2: '#091e18'
+  racing-green-step-3: '#081b15'
+  racing-green-step-5: '#061510'
+  racing-green-step-6: '#04110d'
+  racing-green-step-7: '#020b08'
+  racing-green-card: '#0e2d24'
+  racing-green-light: '#143b30'
+  racing-green-border: '#1c4a3d'
+  gold-champagne: '#dfc28d'
+  gold-brushed: '#c4a66e'
+  gold-light: '#f4e6ca'
+  gold-dark: '#9c7c42'
+  on-surface-subtle: '#9bb8ae'
+  on-surface-muted: '#6a8a80'
+  surface: '#0a211a'
+  surface-dim: '#071813'
+  surface-bright: '#eef4f1'
+  surface-container-lowest: '#0e2d24'
+  surface-container-low: '#071813'
+  surface-container: '#0a211a'
+  surface-container-high: '#143b30'
+  surface-container-highest: '#1c4a3d'
+  on-surface: '#eef4f1'
+  on-surface-variant: '#9bb8ae'
+  inverse-surface: '#eef4f1'
+  inverse-on-surface: '#071813'
+  outline: '#6a8a80'
+  outline-variant: '#1c4a3d'
+  surface-tint: '#dfc28d'
+  primary: '#0a211a'
+  on-primary: '#eef4f1'
+  primary-container: '#0e2d24'
+  on-primary-container: '#9bb8ae'
+  inverse-primary: '#dfc28d'
+  secondary: '#dfc28d'
+  on-secondary: '#071813'
+  secondary-container: '#c4a66e'
+  on-secondary-container: '#071813'
+  tertiary: '#143b30'
+  on-tertiary: '#eef4f1'
+  tertiary-container: '#0e2d24'
+  on-tertiary-container: '#9bb8ae'
   error: '#ba1a1a'
   on-error: '#ffffff'
   error-container: '#ffdad6'
   on-error-container: '#93000a'
-  primary-fixed: '#e5e5e5'
-  primary-fixed-dim: '#c8c8c8'
-  on-primary-fixed: '#181d1c'
-  on-primary-fixed-variant: '#424242'
-  secondary-fixed: '#ffdf9b'
-  secondary-fixed-dim: '#e2c381'
-  on-secondary-fixed: '#251a00'
-  on-secondary-fixed-variant: '#59440e'
-  tertiary-fixed: '#e5e5e5'
-  tertiary-fixed-dim: '#c8c8c8'
-  on-tertiary-fixed: '#181818'
-  on-tertiary-fixed-variant: '#424242'
-  background: '#f5f5f5'
-  on-background: '#181d1c'
-  surface-variant: '#e1e1e1'
+  primary-fixed: '#143b30'
+  primary-fixed-dim: '#0e2d24'
+  on-primary-fixed: '#eef4f1'
+  on-primary-fixed-variant: '#9bb8ae'
+  secondary-fixed: '#f4e6ca'
+  secondary-fixed-dim: '#c4a66e'
+  on-secondary-fixed: '#071813'
+  on-secondary-fixed-variant: '#0e2d24'
+  tertiary-fixed: '#143b30'
+  tertiary-fixed-dim: '#0e2d24'
+  on-tertiary-fixed: '#eef4f1'
+  on-tertiary-fixed-variant: '#9bb8ae'
+  background: '#0a211a'
+  on-background: '#eef4f1'
+  surface-variant: '#143b30'
 typography:
   headline-xl:
     fontFamily: Playfair Display
@@ -141,24 +157,18 @@ spacing:
 
 ## Brand & Style
 
-This design system establishes a high-end, clinically rigorous visual identity tailored for endocrinology and clinical nutrition. Grounded in ethical medical guidelines, the aesthetic favors scientific precision, discreet service, and a restrained, neutral-gray canvas.
+A identidade combina verde racing profundo, dourado champagne e tipografia editorial para transmitir cuidado clínico, serenidade e precisão. Mantenha os textos existentes e use o dourado como destaque, não como cor de fundo dominante.
 
-### Target Audience & Emotional Impact
-- **Audience:** Patients seeking endocrinology, metabolic health, and clinical nutrition care.
-- **Emotional Response:** Inspire reassurance, clinical confidence, discretion, and clarity while preserving a calm, professional tone.
-
-### Design Movement
-- **Editorial Minimalism:** Deep forest green anchors the institutional identity, muted gold highlights important actions, and neutral grays provide calm, readable surfaces. High-contrast typography pairs classical serif headlines with clear sans-serif body text.
+### Direção visual
+- **Verde racing:** base das páginas e áreas de destaque; use tons mais escuros para separação e verdes médios somente em estados elevados.
+- **Progressão das seções:** a partir de Especialidades, cada seção fica mais escura até o rodapé, que usa o verde mais profundo: #0A211A → #091E18 → #081B15 → #071813 → #061510 → #04110D → #020B08.
+- **Dourado champagne:** CTAs primárias, pequenos ícones, etiquetas e bordas de ênfase.
+- **Texto:** branco suave para títulos, verde acinzentado claro para corpo e um tom mais discreto para metadados.
+- **Imagens atuais:** preservar as fontes e os conteúdos de imagem existentes ao aplicar o tema.
 
 ## Colors
 
-Use neutral grays for the page canvas and cards; reserve forest green for the brand, primary actions, and dark feature sections. Use gold sparingly for accents and active states.
-
-- **Primary (`#132B25` - Deep Forest Green):** Institutional anchor for branding, primary actions, and selected dark surfaces.
-- **Secondary (`#C5A869` - Noble Warm Gold):** Restrained accent for borders, active states, and iconography.
-- **Tertiary (`#2C4C42` - Muted Pine Slate):** Supporting brand color for limited use in dark visual elements.
-- **Neutral (`#181D1C` - Deep Graphite):** Main text color for clear contrast and legibility.
-- **Canvas & Background Surfaces:** Use neutral gray `#F5F5F5` for the page background, `#F1F1F1` for subtle section separation, and white `#FFFFFF` for elevated cards.
+A paleta de superfícies usa #0A211A, #071813 e #0E2D24. O dourado #DFC28D e o metal escovado #C4A66E ficam reservados a ações e detalhes. Texto principal em #EEF4F1 e texto secundário em #9BB8AE.
 
 ## Typography
 
@@ -182,11 +192,11 @@ Spacious vertical cadences (`space-xl` and above) are mandated between distinct 
 
 ## Elevation & Depth
 
-Visual depth is achieved through neutral surface contrast and restrained shadows:
+Use contraste tonal entre superfícies verdes profundas e painéis em verde-racing card, com gradientes suaves e sem sombras pesadas.
 
-- **Tonal Layering:** The canvas uses `#F5F5F5`; elevated modules sit on `#FFFFFF` with a subtle neutral shadow (`rgba(24, 29, 28, 0.06) 0 8px 30px`).
-- **Refined Hairline Borders:** Cards and panels use subtle 1px neutral-gray borders (`rgba(24, 29, 28, 0.12)`), with restrained gold accents (`rgba(197, 168, 105, 0.3)`) for focus and active states.
-- **Dark Elegance Inversion:** Select hero segments and footer anchors retain deep forest green with low-opacity white borders and restrained gold highlights.
+- **Tonal layering:** o canvas usa #0A211A, seções alternam com #071813 e cartões usam gradiente entre #0E2D24 e #0A211A.
+- **Hairline borders:** bordas finas em dourado escovado com opacidade baixa; aumentar a ênfase em hover e foco.
+- **Dark monolith:** cartões com gradiente discreto, borda champagne translúcida e blur moderado.
 
 ## Shapes
 
@@ -199,27 +209,26 @@ The design uses a soft, disciplined geometry (`roundedness: 1`).
 
 ## Components
 
+### Header & Navigation
+- Header escuro translúcido, marca em champagne e links em verde acinzentado claro.
+- Sublinhado dourado no hover e altura mínima de 44px para a CTA.
+
 ### Buttons
-- **Primary Action (Agendamento / Triagem):** Background in Deep Forest Green (`#132B25`), typography in white Plus Jakarta Sans (`label-md`), 14px vertical padding and 28px horizontal padding. Subtle gold hairline border hover effect (`#C5A869`).
-- **Secondary Action (Corpo Clínico / Protocolos):** Ghost style with a 1px border in `#132B25` at 25% opacity, shifting to `#132B25` solid fill with white text on hover.
-- **Concierge / WhatsApp Direct:** Muted dark olive surface with gold iconography, conveying high-touch personal medicine.
+- **Primary:** gradiente champagne para dourado escovado, texto verde racing escuro e altura mínima de 44px.
+- **Secondary:** superfície verde-card, texto dourado e borda fina champagne.
+- **Concierge:** botão flutuante verde escuro com ícone champagne.
 
 ### Cards & Service Panels
-- Built on pure `#FFFFFF` over neutral-gray `#F5F5F5` backgrounds.
-- Feature 1px neutral boundary lines in `rgba(24, 29, 28, 0.12)`.
-- Cards display treatment pillar, medical scope, and an expandable link to scientific references.
+- Cartões monolíticos com gradiente verde profundo, borda dourada discreta e conteúdo branco.
+- Usar superfícies mais escuras para separar seções, mantendo contraste legível.
 
-### Chips & Badges
-- **Clinical Badges:** Compact pills with a light-gray tint (`#F1F1F1`), `#132B25` text, and subtle 1px border.
-- **Specialty Certifications (CFM/RQE):** Framed in a delicate champagne border (`#C5A869`) with 11px uppercase typography.
+### Forms
+- Campos escuros com texto claro, rótulos persistentes e foco visível em dourado.
+- Preservar tamanhos táteis de pelo menos 44px e não depender apenas da cor para estados.
 
-### Input Fields & Selectors
-- Background set to pure `#FFFFFF` with a 1px border in `rgba(30, 35, 34, 0.15)`.
-- Active focus state transitions smoothly to an elegant `#132B25` ring with 1px gold outer glow (`#C5A869`).
-- Labels sit cleanly above the field in `Plus Jakarta Sans` medium weight.
-
-### Medical Team / Physician Profile Module
-- Structured profile framing displaying full academic title, CFM/RQE validation, institutional memberships, and an organic portrait framed with an architectural 4px corner radius.
+### Accessibility
+- Manter contraste de texto normal em pelo menos 4,5:1 e texto grande em 3:1.
+- Oferecer foco visível, respeitar prefers-reduced-motion e manter controle próprio para pausar o vídeo decorativo.
 
 ## Conversão, acessibilidade e qualidade
 
