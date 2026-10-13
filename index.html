@@ -1,171 +1,88 @@
-<!DOCTYPE html><html class="scroll-smooth" lang="pt-BR"><head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Instituto Barreto Bastos | Endocrinologia e Nutrição Clínica em Campinas</title>
-<meta name="description" content="Endocrinologia, metabologia e nutrição clínica no Cambuí, em Campinas. Conheça o Instituto Barreto Bastos e solicite uma avaliação integrada.">
-<meta name="theme-color" content="#0a211a">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Instituto Barreto Bastos | Endocrinologia e Nutrição Clínica em Campinas">
-<meta property="og:description" content="Endocrinologia, metabologia e nutrição clínica no Cambuí, em Campinas. Conheça o Instituto Barreto Bastos.">
-<meta property="og:image" content="/assets/clinic-front.jpeg">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"MedicalClinic","name":"Instituto Barreto Bastos","address":{"@type":"PostalAddress","streetAddress":"R. Barreto Leme, 2060 - Cambuí","addressLocality":"Campinas","addressRegion":"SP","addressCountry":"BR"}}
-</script>
-<!-- Material Symbols Outlined -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
-<link href="https://fonts.googleapis.com" rel="preconnect">
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<!-- Tailwind CSS CDN -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a211a">
+  <title>Instituto Barreto Bastos | Endocrinologia e Nutrologia em Campinas</title>
+  <meta name="description" content="Endocrinologia, metabologia e nutrologia no Cambuí, em Campinas, com atendimento presencial e por telemedicina. Conheça a equipe e solicite sua consulta.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Instituto Barreto Bastos | Endocrinologia e Nutrologia em Campinas">
+  <meta property="og:description" content="Endocrinologia, metabologia e nutrologia no Cambuí, em Campinas, com atendimento presencial e por telemedicina. Conheça a equipe e solicite sua consulta.">
+  <meta property="og:image" content="/assets/clinic-front.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
     tailwind.config = {
-      darkMode: "class",
       theme: {
         extend: {
-          "colors": {
-            "racing-green": "#0a211a",
-            "racing-green-dark": "#071813",
-            "racing-green-step-2": "#091e18",
-            "racing-green-step-3": "#081b15",
-            "racing-green-step-5": "#061510",
-            "racing-green-step-6": "#04110d",
-            "racing-green-step-7": "#020b08",
-            "racing-green-card": "#0e2d24",
-            "racing-green-light": "#143b30",
-            "racing-green-border": "#1c4a3d",
-            "gold-champagne": "#dfc28d",
-            "gold-brushed": "#c4a66e",
-            "gold-light": "#f4e6ca",
-            "gold-dark": "#9c7c42",
-            "on-surface-subtle": "#9bb8ae",
-            "on-surface-muted": "#6a8a80",
-            "on-error-container": "#93000a",
-            "on-tertiary": "#eef4f1",
-            "on-primary-fixed-variant": "#9bb8ae",
-            "primary-fixed-dim": "#0e2d24",
-            "secondary-fixed": "#f4e6ca",
-            "inverse-on-surface": "#071813",
-            "surface-bright": "#eef4f1",
-            "secondary-fixed-dim": "#c4a66e",
-            "tertiary-fixed-dim": "#0e2d24",
-            "background": "#0a211a",
-            "inverse-primary": "#dfc28d",
-            "outline": "#6a8a80",
-            "surface": "#0a211a",
-            "primary": "#0a211a",
-            "on-secondary-container": "#071813",
-            "surface-dim": "#071813",
-            "secondary-container": "#c4a66e",
-            "outline-variant": "#1c4a3d",
-            "on-secondary-fixed-variant": "#0e2d24",
-            "surface-container-lowest": "#0e2d24",
-            "on-tertiary-container": "#9bb8ae",
-            "surface-variant": "#143b30",
-            "on-secondary-fixed": "#071813",
-            "surface-container-highest": "#1c4a3d",
-            "tertiary-container": "#0e2d24",
-            "on-tertiary-fixed-variant": "#9bb8ae",
-            "on-primary-fixed": "#eef4f1",
-            "inverse-surface": "#eef4f1",
-            "surface-tint": "#dfc28d",
-            "tertiary": "#143b30",
-            "secondary": "#dfc28d",
-            "on-background": "#eef4f1",
-            "primary-fixed": "#143b30",
-            "on-surface": "#eef4f1",
-            "surface-container": "#0a211a",
-            "on-surface-variant": "#9bb8ae",
-            "surface-container-low": "#071813",
-            "error": "#ba1a1a",
-            "on-secondary": "#071813",
-            "on-primary": "#eef4f1",
-            "tertiary-fixed": "#143b30",
-            "on-error": "#ffffff",
-            "error-container": "#ffdad6",
-            "on-tertiary-fixed": "#eef4f1",
-            "surface-container-high": "#143b30",
-            "on-primary-container": "#9bb8ae",
-            "primary-container": "#0e2d24"
+          colors: {
+            'racing-green': '#0a211a',
+            'racing-green-dark': '#071813',
+            'racing-green-step-2': '#091e18',
+            'racing-green-step-3': '#081b15',
+            'racing-green-step-5': '#061510',
+            'racing-green-step-6': '#04110d',
+            'racing-green-step-7': '#020b08',
+            'racing-green-card': '#0e2d24',
+            'racing-green-light': '#143b30',
+            'gold-champagne': '#dfc28d',
+            'gold-brushed': '#c4a66e',
+            'gold-light': '#f4e6ca',
+            'gold-dark': '#9c7c42',
+            'on-surface-subtle': '#9bb8ae',
+            'on-surface-muted': '#6a8a80',
+            'surface-bright': '#eef4f1',
+            'surface': '#0a211a',
+            'surface-dim': '#071813',
+            'surface-container-lowest': '#0e2d24',
+            'surface-container-low': '#071813',
+            'surface-container': '#0a211a',
+            'surface-container-high': '#143b30',
+            'surface-container-highest': '#1c4a3d',
+            'on-surface': '#eef4f1',
+            'on-surface-variant': '#9bb8ae',
+            'primary': '#0a211a',
+            'primary-container': '#0e2d24',
+            'secondary': '#dfc28d',
+            'secondary-fixed': '#f4e6ca',
+            'secondary-fixed-dim': '#c4a66e'
           },
-          "borderRadius": {
-            "DEFAULT": "0.25rem",
-            "sm": "0.125rem",
-            "md": "0.375rem",
-            "lg": "0.5rem",
-            "xl": "0.75rem",
-            "full": "9999px"
+          borderRadius: {
+            DEFAULT: '0.25rem',
+            sm: '0.125rem',
+            md: '0.375rem',
+            lg: '0.5rem',
+            xl: '0.75rem',
+            full: '9999px'
           },
-          "spacing": {
-            "space-xl": "3.5rem",
-            "space-xs": "0.375rem",
-            "margin": "3rem",
-            "space-md": "1.25rem",
-            "gutter-mobile": "1rem",
-            "space-sm": "0.75rem",
-            "margin-mobile": "1.25rem",
-            "space-lg": "2rem",
-            "gutter": "1.5rem"
-          },
-          "fontFamily": {
-            "headline": ["Playfair Display", "serif"],
-            "sans": ["Plus Jakarta Sans", "sans-serif"],
-            "headline-xl-mobile": ["Playfair Display"],
-            "body-md": ["Plus Jakarta Sans"],
-            "body-sm": ["Plus Jakarta Sans"],
-            "label-md": ["Plus Jakarta Sans"],
-            "headline-md": ["Playfair Display"],
-            "headline-sm": ["Playfair Display"],
-            "title-lg": ["Plus Jakarta Sans"],
-            "headline-lg": ["Playfair Display"],
-            "headline-xl": ["Playfair Display"],
-            "headline-lg-mobile": ["Playfair Display"],
-            "body-lg": ["Plus Jakarta Sans"],
-            "label-sm": ["Plus Jakarta Sans"],
-            "title-md": ["Plus Jakarta Sans"]
-          },
-          "fontSize": {
-            "headline-xl-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
-            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
-            "body-sm": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
-            "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
-            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }],
-            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }],
-            "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
-            "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
-            "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
-            "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
-            "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }],
-            "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }],
-            "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }]
+          fontFamily: {
+            headline: ['Playfair Display', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
           }
         }
       }
-    }
+    };
   </script>
-<style>
+  <style>
     .material-symbols-outlined {
-      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
       display: inline-block;
       vertical-align: middle;
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
     }
     .card-monolith {
-      background: linear-gradient(180deg, rgba(14, 45, 36, 0.85) 0%, rgba(10, 33, 26, 0.95) 100%);
-      border: 1px solid rgba(196, 166, 110, 0.22);
-      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.025);
-      backdrop-filter: blur(8px);
-      transition: border-color 220ms ease, box-shadow 220ms ease;
+      background: linear-gradient(180deg, rgba(14, 45, 36, .84), rgba(7, 24, 19, .96));
+      border: 1px solid rgba(196, 166, 110, .22);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .025);
+      transition: border-color 220ms ease, background-color 220ms ease;
     }
     .card-monolith:hover {
-      border-color: rgba(223, 194, 141, 0.42);
-      box-shadow: 0 24px 52px rgba(0, 0, 0, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.035);
-    }
-    main > section[id] {
-      padding-block: clamp(4rem, 6vw, 6rem);
-      scroll-margin-top: 6rem;
+      border-color: rgba(223, 194, 141, .48);
     }
     h1, h2, h3 {
       text-wrap: balance;
@@ -173,320 +90,532 @@
     p {
       text-wrap: pretty;
     }
-    .gold-gradient-bg {
-      background: linear-gradient(135deg, #dfc28d 0%, #c4a66e 50%, #9c7c42 100%);
+    main > section[id] {
+      scroll-margin-top: 6rem;
     }
-    .gold-glow {
-      box-shadow: 0 0 25px rgba(223, 194, 141, 0.18);
-    }
-    select option {
-      background-color: #071813;
-      color: #eef4f1;
-    }
-    :is(a, button, summary, input, select, textarea):focus-visible {
+    :is(a, button, summary, input, select):focus-visible {
       outline: 3px solid #dfc28d;
       outline-offset: 3px;
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
         scroll-behavior: auto !important;
-        animation-duration: 0.01ms !important;
+        animation-duration: .01ms !important;
         animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
+        transition-duration: .01ms !important;
       }
     }
   </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Instituto Barreto Bastos",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. Barreto Leme, 2060 - Cambuí",
+        "addressLocality": "Campinas",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      }
+    }
+  </script>
 </head>
-<body class="bg-background text-on-surface antialiased selection:bg-secondary selection:text-surface-container-lowest font-body-md text-body-md min-h-screen">
-<a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-surface-container-lowest focus:px-4 focus:py-3 focus:text-white focus:shadow-lg" href="#conteudo-principal">Pular para o conteúdo</a>
-<!-- 1. HEADER FIXO (TopNavBar Component as per JSON) -->
-<header class="docked full-width top-0 sticky z-50 bg-surface/90 backdrop-blur-md border-b border-gold-brushed/15">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between h-16 sm:h-20">
-<!-- Brand Logo / Monogram -->
-<a class="flex min-w-0 items-center gap-2 sm:gap-3.5 group" href="#"><div class="h-10 w-10 overflow-hidden rounded-xl border border-secondary/40 flex items-center justify-center bg-primary-container p-1 shrink-0 transition-transform duration-300 group-hover:scale-105"><img alt="Instituto Barreto Bastos" class="h-full w-auto object-contain filter brightness-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5Z-bAJQMam-wDtMBisJ8VR9BjCBn6ld-H8_34jrg-3aGlim6uLvQCAC5h7fPnO7BpPG-dYuPPtafD4pnVezFfqbc_bxbGoBLRSVrc2KpiMsB6JNqG0xVephQscuestyEa2p5ZNkROc12r069JHCfzvVOoEwhOxchFmXEW2AYNetbD-z4PK-Z_gV8V4V7CeUXArdpS0eIk-opjQVh2CAz4XQ2uohzTc41P4f66mEWZOWLMD2m_FVjusCajvWXvD0hSxOQ"></div><div class="flex min-w-0 flex-col"><span class="font-headline-sm text-[13px] sm:text-headline-sm tracking-tight text-gold-light font-semibold leading-tight sm:leading-none whitespace-nowrap">Instituto Barreto Bastos</span><span class="hidden sm:block font-label-sm text-label-sm text-secondary tracking-widest uppercase mt-1">Saúde Integrada &amp; Longevidade</span></div></a>
-<!-- Desktop Navigation Links -->
-<nav class="hidden lg:flex items-center gap-7">
-  <a class="group relative inline-flex min-h-11 items-center py-1 text-sm font-medium text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#especialidades">Especialidades<span class="absolute bottom-1 left-0 h-px w-0 bg-gold-champagne transition-all duration-300 group-hover:w-full"></span></a>
-  <a class="group relative inline-flex min-h-11 items-center py-1 text-sm font-medium text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#metodo">Método<span class="absolute bottom-1 left-0 h-px w-0 bg-gold-champagne transition-all duration-300 group-hover:w-full"></span></a>
-  <a class="group relative inline-flex min-h-11 items-center py-1 text-sm font-medium text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#corpo-clinico">Corpo Clínico<span class="absolute bottom-1 left-0 h-px w-0 bg-gold-champagne transition-all duration-300 group-hover:w-full"></span></a>
-  <a class="group relative inline-flex min-h-11 items-center py-1 text-sm font-medium text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#o-instituto">O Instituto<span class="absolute bottom-1 left-0 h-px w-0 bg-gold-champagne transition-all duration-300 group-hover:w-full"></span></a>
-  <a class="group relative inline-flex min-h-11 items-center py-1 text-sm font-medium text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#duvidas">Dúvidas<span class="absolute bottom-1 left-0 h-px w-0 bg-gold-champagne transition-all duration-300 group-hover:w-full"></span></a>
-</nav>
-<!-- Trailing CTAs -->
-<div class="flex items-center gap-4"><a class="inline-flex min-h-11 items-center justify-center gap-2 bg-gradient-to-r from-gold-champagne to-gold-brushed text-racing-green font-semibold text-xs uppercase tracking-wider px-5 py-2.5 rounded-md hover:shadow-[0_0_20px_rgba(223,194,141,0.35)] transition-all duration-300 whitespace-nowrap shrink-0 group" href="#agendamento"><span>Agendar avaliação</span><span class="material-symbols-outlined text-sm transition-transform group-hover:translate-x-0.5">calendar_month</span></a></div>
-</div>
-</header>
-<main id="conteudo-principal" tabindex="-1">
-<!-- 2. HERO EDITORIAL RACING GREEN -->
-<section class="relative isolate pt-14 pb-16 md:py-24 overflow-hidden border-b border-gold-brushed/15">
-  <div class="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
-    <img class="absolute right-[3%] top-1/2 w-64 -translate-y-1/2 object-contain opacity-[0.045] sm:w-80 lg:right-[6%] lg:w-[440px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5Z-bAJQMam-wDtMBisJ8VR9BjCBn6ld-H8_34jrg-3aGlim6uLvQCAC5h7fPnO7BpPG-dYuPPtafD4pnVezFfqbc_bxbGoBLRSVrc2KpiMsB6JNqG0xVephQscuestyEa2p5ZNkROc12r069JHCfzvVOoEwhOxchFmXEW2AYNetbD-z4PK-Z_gV8V4V7CeUXArdpS0eIk-opjQVh2CAz4XQ2uohzTc41P4f66mEWZOWLMD2m_FVjusCajvWXvD0hSxOQ" alt="" decoding="async">
-  </div>
-  <div class="absolute top-0 right-1/4 w-[600px] h-[600px] rounded-full bg-racing-green-light/30 blur-[140px] pointer-events-none"></div>
-  <div class="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-gold-dark/10 blur-[120px] pointer-events-none"></div>
-  <div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12 relative z-10">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-      <div class="lg:col-span-5 flex flex-col space-y-6">
-        <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-racing-green-card border border-gold-brushed/30 w-fit">
-          <span class="w-2 h-2 rounded-full bg-gold-champagne shrink-0" aria-hidden="true"></span>
-          <span class="text-[11px] font-semibold text-gold-champagne tracking-[0.18em] uppercase">Clínica de Medicina &amp; Longevidade • Cambuí, Campinas</span>
-        </div>
-        <h1 class="font-headline text-4xl sm:text-5xl lg:text-[58px] text-white font-medium leading-[1.08] tracking-[-0.035em]">
-          Cuidado médico para transformar sua saúde com <span class="italic font-normal text-gold-champagne underline decoration-gold-brushed/30 underline-offset-8">estratégia</span>, acompanhamento e segurança.
-        </h1>
-        <p class="max-w-xl text-base sm:text-lg text-on-surface-subtle font-normal leading-8">
-          Endocrinologia metabólica e nutrição de precisão em planos individualizados e fundamentados na ciência.
-        </p>
-        <div class="flex flex-wrap gap-2.5 pt-1" aria-label="Diferenciais do atendimento">
-          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-racing-green-dark border border-gold-brushed/25 text-xs text-[#e2ede8] font-medium"><span class="material-symbols-outlined text-gold-champagne text-sm" aria-hidden="true">check_circle</span>Endocrinologia &amp; Metabologia</span>
-          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-racing-green-dark border border-gold-brushed/25 text-xs text-[#e2ede8] font-medium"><span class="material-symbols-outlined text-gold-champagne text-sm" aria-hidden="true">check_circle</span>Nutrição Clínica</span>
-          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-racing-green-dark border border-gold-brushed/25 text-xs text-[#e2ede8] font-medium"><span class="material-symbols-outlined text-gold-champagne text-sm" aria-hidden="true">check_circle</span>Acompanhamento Integrado</span>
-        </div>
-        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-2">
-          <a class="inline-flex min-h-12 items-center justify-center gap-2 bg-gradient-to-r from-gold-champagne via-gold-brushed to-gold-dark text-racing-green font-semibold text-sm px-7 py-3.5 rounded-md shadow-[0_4px_20px_rgba(223,194,141,0.22)] hover:shadow-[0_4px_28px_rgba(223,194,141,0.35)] transition-all duration-300 tracking-wide" href="#agendamento">
-            <span>Agendar avaliação</span><span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span>
-          </a>
-          <a class="inline-flex min-h-12 items-center justify-center gap-2 bg-racing-green-card hover:bg-racing-green-light text-gold-champagne font-medium text-sm px-6 py-3.5 rounded-md border border-gold-brushed/40 hover:border-gold-champagne transition-all duration-300" href="#metodo">
-            <span>Conhecer o método</span><span class="material-symbols-outlined text-sm" aria-hidden="true">south_east</span>
-          </a>
-        </div>
-      </div>
-      <div class="lg:col-span-7 relative">
-        <div class="relative mx-auto max-w-2xl lg:max-w-none rounded-2xl p-2 bg-gradient-to-b from-gold-brushed/30 via-gold-brushed/10 to-transparent border border-gold-brushed/30 shadow-2xl">
-          <div class="relative aspect-video w-full overflow-hidden rounded-xl bg-racing-green-dark">
-            <iframe id="hero-video" class="pointer-events-none absolute inset-0 h-full w-full border-0" src="about:blank" title="Vídeo decorativo do Instituto Barreto Bastos" tabindex="-1" aria-hidden="true" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; web-share"></iframe>
-            <button id="hero-video-toggle" class="absolute right-3 top-3 z-20 flex h-11 w-11 items-center justify-center rounded-full border border-gold-brushed/60 bg-racing-green-dark/90 text-gold-champagne backdrop-blur-sm transition-colors hover:bg-racing-green-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-champagne" type="button" aria-label="Pausar vídeo" aria-pressed="true">
-              <span id="hero-video-toggle-icon" class="material-symbols-outlined text-xl" aria-hidden="true">pause</span>
-            </button>
-          </div>
-        </div>
-        <script>
-          const heroVideo = document.getElementById("hero-video");
-          const heroVideoToggle = document.getElementById("hero-video-toggle");
-          const heroVideoToggleIcon = document.getElementById("hero-video-toggle-icon");
-          const heroVideoId = "JvY5UWXaJqw";
-          const heroVideoPrefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-          const heroVideoUrl = new URL("https://www.youtube-nocookie.com/embed/" + heroVideoId);
-          heroVideoUrl.search = new URLSearchParams({
-            autoplay: heroVideoPrefersReducedMotion ? "0" : "1",
-            mute: "1",
-            loop: "1",
-            playlist: heroVideoId,
-            playsinline: "1",
-            controls: "0",
-            disablekb: "1",
-            fs: "0",
-            rel: "0",
-            enablejsapi: "1",
-            origin: window.location.origin
-          }).toString();
-          heroVideo.src = heroVideoUrl.toString();
-          let heroVideoIsPlaying = !heroVideoPrefersReducedMotion;
-          heroVideoToggle.setAttribute("aria-pressed", String(heroVideoIsPlaying));
-          heroVideoToggle.setAttribute("aria-label", heroVideoIsPlaying ? "Pausar vídeo" : "Reproduzir vídeo");
-          heroVideoToggleIcon.textContent = heroVideoIsPlaying ? "pause" : "play_arrow";
-          heroVideoToggle.addEventListener("click", () => {
-            const command = heroVideoIsPlaying ? "pauseVideo" : "playVideo";
-            heroVideo.contentWindow.postMessage(
-              JSON.stringify({ event: "command", func: command, args: [] }),
-              heroVideoUrl.origin
-            );
-            heroVideoIsPlaying = !heroVideoIsPlaying;
-            heroVideoToggle.setAttribute("aria-pressed", String(heroVideoIsPlaying));
-            heroVideoToggle.setAttribute("aria-label", heroVideoIsPlaying ? "Pausar vídeo" : "Reproduzir vídeo");
-            heroVideoToggleIcon.textContent = heroVideoIsPlaying ? "pause" : "play_arrow";
-          });
-        </script>
+<body class="min-h-screen bg-racing-green text-on-surface antialiased font-sans selection:bg-gold-champagne selection:text-racing-green">
+  <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-surface-container-lowest focus:px-4 focus:py-3 focus:text-white" href="#conteudo-principal">Pular para o conteúdo</a>
+  <header class="sticky top-0 z-50 border-b border-gold-brushed/15 bg-racing-green/95 backdrop-blur-md">
+    <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:h-20 sm:px-6 lg:px-12">
+      <a class="flex min-w-0 items-center gap-2.5 sm:gap-3.5" href="#inicio" aria-label="Instituto Barreto Bastos — início">
+        <span class="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-gold-brushed/35 bg-racing-green-card p-1">
+          <img class="h-full w-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5Z-bAJQMam-wDtMBisJ8VR9BjCBn6ld-H8_34jrg-3aGlim6uLvQCAC5h7fPnO7BpPG-dYuPPtafD4pnVezFfqbc_bxbGoBLRSVrc2KpiMsB6JNqG0xVephQscuestyEa2p5ZNkROc12r069JHCfzvVOoEwhOxchFmXEW2AYNetbD-z4PK-Z_gV8V4V7CeUXArdpS0eIk-opjQVh2CAz4XQ2uohzTc41P4f66mEWZOWLMD2m_FVjusCajvWXvD0hSxOQ" alt="" width="40" height="40" decoding="async">
+        </span>
+        <span class="flex min-w-0 flex-col">
+          <span class="whitespace-nowrap font-headline text-[13px] font-semibold leading-tight tracking-tight text-gold-light sm:text-lg">Instituto Barreto Bastos</span>
+          <span class="mt-1 hidden text-[10px] uppercase tracking-[.16em] text-gold-brushed sm:block">Endocrinologia e Nutrologia</span>
+        </span>
+      </a>
+      <nav class="hidden items-center gap-6 xl:flex" aria-label="Navegação principal">
+        <a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#especialidades">Especialidades</a>
+        <a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#como-cuidamos">Como cuidamos</a>
+        <a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#corpo-clinico">Corpo Clínico</a>
+        <a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#o-instituto">O Instituto</a>
+        <a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle transition-colors hover:text-gold-champagne" href="#duvidas">Dúvidas</a>
+      </nav>
+      <div class="flex shrink-0 items-center gap-2 sm:gap-3">
+        <a class="inline-flex min-h-11 items-center justify-center rounded-md bg-gradient-to-r from-gold-champagne to-gold-brushed px-3.5 text-xs font-semibold text-racing-green transition-colors hover:brightness-105 sm:px-5 sm:text-sm" href="#agendamento">Agendar consulta</a>
+        <details class="relative xl:hidden" id="menu-mobile">
+          <summary class="flex min-h-11 min-w-11 cursor-pointer list-none items-center justify-center gap-1 rounded-md border border-gold-brushed/30 px-2 text-gold-light [&amp;::-webkit-details-marker]:hidden" aria-label="Abrir menu de navegação">
+            <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+            <span class="sr-only">Menu</span>
+          </summary>
+          <nav class="absolute right-0 top-full mt-2 grid w-[min(86vw,20rem)] gap-1 rounded-xl border border-gold-brushed/25 bg-racing-green-dark p-2 shadow-2xl" aria-label="Navegação móvel">
+            <a class="flex min-h-11 items-center rounded-md px-3 text-sm text-on-surface-subtle hover:bg-racing-green-card hover:text-gold-champagne" href="#especialidades">Especialidades</a>
+            <a class="flex min-h-11 items-center rounded-md px-3 text-sm text-on-surface-subtle hover:bg-racing-green-card hover:text-gold-champagne" href="#como-cuidamos">Como cuidamos</a>
+            <a class="flex min-h-11 items-center rounded-md px-3 text-sm text-on-surface-subtle hover:bg-racing-green-card hover:text-gold-champagne" href="#corpo-clinico">Corpo Clínico</a>
+            <a class="flex min-h-11 items-center rounded-md px-3 text-sm text-on-surface-subtle hover:bg-racing-green-card hover:text-gold-champagne" href="#o-instituto">O Instituto</a>
+            <a class="flex min-h-11 items-center rounded-md px-3 text-sm text-on-surface-subtle hover:bg-racing-green-card hover:text-gold-champagne" href="#duvidas">Dúvidas</a>
+          </nav>
+        </details>
       </div>
     </div>
-  </div>
-</section>
-<!-- 3. BARRA DE AUTORIDADE (4 COLUNAS) -->
-<section class="border-y border-gold-brushed/15 bg-surface-container-lowest"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12 py-6"><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-0 lg:divide-x lg:divide-gold-brushed/20"><div class="flex items-start gap-3.5 lg:px-6"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl">person_search</span></div><div><h4 class="font-title-md text-title-md text-white font-semibold text-sm">Atendimento Dedicado</h4><p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed text-sm">Investigação aprofundada sem pressa.</p></div></div><div class="flex items-start gap-3.5 lg:px-6"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl">biotech</span></div><div><h4 class="font-title-md text-title-md text-white font-semibold text-sm">Mapeamento Completo</h4><p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed text-sm">Biomarcadores hormonais e metabólicos.</p></div></div><div class="flex items-start gap-3.5 lg:px-6"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl">assignment_turned_in</span></div><div><h4 class="font-title-md text-title-md text-white font-semibold text-sm">Plano Sob Medida</h4><p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed text-sm">Condutas integradas à sua rotina.</p></div></div><a class="flex items-start gap-3.5 lg:px-6 rounded-md focus-visible:outline" href="#corpo-clinico"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl">groups</span></div><div><h4 class="font-title-md text-title-md text-white font-semibold text-sm">Equipe Integrada</h4><p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed text-sm">Conheça quem conduz o cuidado.</p></div></a></div></div></section>
-<!-- 4. SEÇÃO DE DOR E IDENTIFICAÇÃO -->
-<section class="py-10 md:py-16 bg-surface"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12"><div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start"><div class="lg:col-span-5 space-y-4"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest text-[11px]">Sinais &amp; Identificação</span><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white leading-tight">Quando o corpo muda, o cuidado também precisa mudar.</h2><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Sintomas persistentes exigem diagnóstico preciso dos desajustes metabólicos e hormonais.</p><div class="pt-2"><a class="inline-flex items-center gap-2 text-white font-label-md text-label-md hover:text-secondary group transition-colors" href="#agendamento"><span class="border-b border-secondary pb-0.5">Quero entender meu caso</span><span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1 text-sm">arrow_forward</span></a></div></div><div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-3"><div class="p-4 rounded-xl bg-surface-container-lowest border border-gold-brushed/25 hover:border-secondary transition-all duration-300 group card-monolith"><div class="flex items-center gap-3 mb-2"><div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:bg-secondary-container transition-colors shrink-0"><span class="material-symbols-outlined text-lg">trending_down</span></div><h3 class="font-title-md text-title-md text-white font-semibold text-sm">Dificuldade para emagrecer</h3></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Metabolismo estagnado mesmo com restrições.</p></div><div class="p-4 rounded-xl bg-surface-container-lowest border border-gold-brushed/25 hover:border-secondary transition-all duration-300 group card-monolith"><div class="flex items-center gap-3 mb-2"><div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:bg-secondary-container transition-colors shrink-0"><span class="material-symbols-outlined text-lg">battery_low</span></div><h3 class="font-title-md text-title-md text-white font-semibold text-sm">Cansaço &amp; baixa disposição</h3></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Fadiga crônica que reduz o rendimento.</p></div><div class="p-4 rounded-xl bg-surface-container-lowest border border-gold-brushed/25 hover:border-secondary transition-all duration-300 group card-monolith"><div class="flex items-center gap-3 mb-2"><div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:bg-secondary-container transition-colors shrink-0"><span class="material-symbols-outlined text-lg">tune</span></div><h3 class="font-title-md text-title-md text-white font-semibold text-sm">Oscilações hormonais</h3></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Variações de humor, libido e composição física.</p></div><div class="p-4 rounded-xl bg-surface-container-lowest border border-gold-brushed/25 hover:border-secondary transition-all duration-300 group card-monolith"><div class="flex items-center gap-3 mb-2"><div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:bg-secondary-container transition-colors shrink-0"><span class="material-symbols-outlined text-lg">refresh</span></div><h3 class="font-title-md text-title-md text-white font-semibold text-sm">Ganho de peso rebote</h3></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Efeito sanfona após intervenções radicais.</p></div><div class="p-4 rounded-xl bg-surface-container-lowest border border-gold-brushed/25 hover:border-secondary transition-all duration-300 group card-monolith"><div class="flex items-center gap-3 mb-2"><div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:bg-secondary-container transition-colors shrink-0"><span class="material-symbols-outlined text-lg">bedtime</span></div><h3 class="font-title-md text-title-md text-white font-semibold text-sm">Sono não reparador</h3></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Despertar cansado e alterações no apetite.</p></div><div class="p-4 rounded-xl bg-surface-container-lowest border border-gold-brushed/25 hover:border-secondary transition-all duration-300 group card-monolith"><div class="flex items-center gap-3 mb-2"><div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:bg-secondary-container transition-colors shrink-0"><span class="material-symbols-outlined text-lg">support</span></div><h3 class="font-title-md text-title-md text-white font-semibold text-sm">Falta de suporte contínuo</h3></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Tratamentos pontuais sem retaguarda médica.</p></div></div></div></div></section>
-<!-- 5. SEÇÃO DE TRATAMENTOS -->
-<section class="py-10 md:py-16 bg-surface-container-lowest border-t border-gold-brushed/15 overflow-hidden" id="o-instituto"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12"><div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4"><div class="max-w-2xl space-y-2"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest text-[11px] block">Espaço &amp; Experiência</span><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white tracking-tight leading-tight">Ambiente concebido para o seu cuidado integral</h2><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Arquitetura biofílica, acústica projetada para escuta atenta e tecnologia diagnóstica de ponta no coração do Cambuí em Campinas.</p></div><div class="flex items-center gap-2 text-secondary font-label-sm text-[12px]"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>Instalações de Padrão Internacional</div></div><div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-8"><div class="lg:col-span-7 rounded-2xl overflow-hidden border border-gold-brushed/20 bg-primary-container relative group min-h-[380px] flex flex-col justify-end p-6 md:p-8"><img loading="lazy" decoding="async" alt="Consultório médico de alto padrão no Cambuí Campinas" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 opacity-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyeyvAn3HEN_3dwNqwpXTLowhfpethTBQCPL3jpnKQ_2rpN-e5zD1gZvQS2iB8nAA4ynMH4N58jqesfzDa62W2z-UIwFzokYPKTceQyKp-d3-Z5PPa3VqzzarD7wYgoopENTiBU_CxIT5pGN1RjbAa3tgYGdwtkubj4pyjvCtNebjOphrs32wTh713b1O4N1ZBclWuiNK6bKerPj2fAHRKckl3QHeQvkCP-U-0ufSwXZYlTtYNUevztA"><div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div><div class="relative z-10 space-y-2"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest/20 backdrop-blur-md border border-white/20 text-secondary-fixed text-[11px] font-label-sm uppercase tracking-wider"><span class="material-symbols-outlined text-xs">spa</span>Consultório Humanizado</div><h3 class="font-headline-md text-headline-md text-surface-bright font-serif">Consultas sem pressa, em atmosfera serena</h3><p class="font-body-sm text-body-sm text-on-surface-subtle max-w-xl leading-relaxed">Isolamento acústico absoluto e ambiente acolhedor com luz natural para que cada detalhe da sua saúde e rotina seja investigado minuciosamente.</p></div></div><div class="lg:col-span-5 rounded-2xl overflow-hidden border border-gold-brushed/20 bg-surface-container-low flex flex-col justify-between p-6 card-monolith"><div class="relative h-52 w-full rounded-xl overflow-hidden border border-gold-brushed/15 mb-4 group"><img loading="lazy" decoding="async" alt="Laboratório de bioimpedância e composição corporal" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuGm5l2wsinmkccLXbnqlEQWUz2zUlpo_TT4N4mGXhebAGc_0zWcRlpy_VwNa1X71Hg77zcoNnLj06n1mnPF87qI5mPf8QIq9LN1YRuYUc8vZTZ1rHtZ5LUVCrU_e31iwt9cgoZXkh87H1YluoYcOUk-LSu9ourRnTf0BVHa_JTiyffuyA1Uq6bc5A0tY2FhrtAUTXoUeURmOJFqgIUm5q0BsqkneUns_FzwWx3MtqB3zlQgMIUDWSHw"><div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-primary/80 backdrop-blur-sm border border-white/20 text-surface-bright text-[11px] font-label-sm flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary-fixed text-xs">monitoring</span>Laboratório In-Company</div></div><div class="space-y-2"><h3 class="font-title-lg text-title-lg text-white font-semibold">Avaliação da Composição Corporal de Alta Precisão</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Exame de bioimpedância segmentar médica integrado à consulta para mensurar massa muscular esquelética, gordura visceral, água intra/extracelular e taxa metabólica.</p></div><div class="pt-4 border-t border-gold-brushed/20 grid grid-cols-2 gap-3 text-xs text-on-surface-variant"><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span>Valet no edifício</div><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-sm">check_circle</span>Acesso sigiloso</div></div></div></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-4"><div class="p-4 rounded-xl bg-surface-container-low border border-gold-brushed/15 flex items-center gap-3.5 card-monolith"><div class="w-10 h-10 rounded-lg bg-surface-container-lowest border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl leading-none flex items-center justify-center">verified</span></div><div><div class="font-title-md text-title-md text-white font-semibold text-sm">Rigor &amp; Discrição</div><div class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Atendimento privativo e exclusivo</div></div></div><div class="p-4 rounded-xl bg-surface-container-low border border-gold-brushed/15 flex items-center gap-3.5 card-monolith"><div class="w-10 h-10 rounded-lg bg-surface-container-lowest border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl leading-none flex items-center justify-center">science</span></div><div><div class="font-title-md text-title-md text-white font-semibold text-sm">Diagnóstico Avançado</div><div class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Painel hormonal e metabólico integral</div></div></div><div class="p-4 rounded-xl bg-surface-container-low border border-gold-brushed/15 flex items-center gap-3.5 card-monolith"><div class="w-10 h-10 rounded-lg bg-surface-container-lowest border border-secondary/30 flex items-center justify-center text-secondary shrink-0 shadow-sm"><span class="material-symbols-outlined text-xl leading-none flex items-center justify-center">directions_car</span></div><div><div class="font-title-md text-title-md text-white font-semibold text-sm">Conveniência Cambuí</div><div class="font-body-sm text-body-sm text-on-surface-variant text-[12px]">Estacionamento com manobrista no local</div></div></div></div></div></section><section class="py-10 md:py-16 bg-racing-green border-t border-gold-brushed/15" id="especialidades"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12"><div class="text-center max-w-3xl mx-auto mb-10 space-y-2.5"><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest text-[11px]">Especialidades Médicas</span><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white">Cuidado especializado para diferentes fases da sua saúde</h2><p class="font-body-md text-body-md text-on-surface-variant">Planos integrados conduzidos com rigor científico e discrição.</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"><div class="bg-surface-container-lowest p-6 rounded-xl border border-gold-brushed/25 flex flex-col justify-between hover:border-secondary transition-colors duration-300 group card-monolith"><div class="space-y-3"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-surface-bright transition-colors"><span class="material-symbols-outlined text-xl">scale</span></div><h3 class="font-title-md text-title-md text-white font-semibold">Emagrecimento &amp; Obesidade</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Tratamento da causa com preservação muscular e metas reais.</p></div><div class="pt-4 border-t border-gold-brushed/20 mt-6"><a class="inline-flex items-center text-secondary font-label-md text-label-md hover:text-white transition-colors group-hover:translate-x-1 duration-200 text-xs" href="#agendamento"><span class="">Conhecer Tratamento</span><span class="material-symbols-outlined ml-1 text-xs">arrow_forward</span></a></div></div><div class="bg-surface-container-lowest p-6 rounded-xl border border-gold-brushed/25 flex flex-col justify-between hover:border-secondary transition-colors duration-300 group card-monolith"><div class="space-y-3"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-surface-bright transition-colors"><span class="material-symbols-outlined text-xl">shield_with_heart</span></div><h3 class="font-title-md text-title-md text-white font-semibold">Saúde Hormonal &amp; Longevidade</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Equilíbrio hormonal focado em vitalidade celular e prevenção.</p></div><div class="pt-4 border-t border-gold-brushed/20 mt-6"><a class="inline-flex items-center text-secondary font-label-md text-label-md hover:text-white transition-colors group-hover:translate-x-1 duration-200 text-xs" href="#agendamento"><span class="">Conhecer Tratamento</span><span class="material-symbols-outlined ml-1 text-xs">arrow_forward</span></a></div></div><div class="bg-surface-container-lowest p-6 rounded-xl border border-gold-brushed/25 flex flex-col justify-between hover:border-secondary transition-colors duration-300 group card-monolith"><div class="space-y-3"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-surface-bright transition-colors"><span class="material-symbols-outlined text-xl">biotech</span></div><h3 class="font-title-md text-title-md text-white font-semibold">Doenças Endócrinas &amp; Metabólicas</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Manejo assertivo de tireoide, diabetes e esteatose.</p></div><div class="pt-4 border-t border-gold-brushed/20 mt-6"><a class="inline-flex items-center text-secondary font-label-md text-label-md hover:text-white transition-colors group-hover:translate-x-1 duration-200 text-xs" href="#agendamento"><span class="">Conhecer Tratamento</span><span class="material-symbols-outlined ml-1 text-xs">arrow_forward</span></a></div></div><div class="bg-surface-container-lowest p-6 rounded-xl border border-gold-brushed/25 flex flex-col justify-between hover:border-secondary transition-colors duration-300 group card-monolith"><div class="space-y-3"><div class="w-10 h-10 rounded-lg bg-surface-container-low border border-secondary/30 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-surface-bright transition-colors"><span class="material-symbols-outlined text-xl">restaurant</span></div><h3 class="font-title-md text-title-md text-white font-semibold">Nutrição Clínica &amp; Comportamental</h3><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">Prescrição individualizada sem dietas punitivas.</p></div><div class="pt-4 border-t border-gold-brushed/20 mt-6"><a class="inline-flex items-center text-secondary font-label-md text-label-md hover:text-white transition-colors group-hover:translate-x-1 duration-200 text-xs" href="#agendamento"><span class="">Conhecer Tratamento</span><span class="material-symbols-outlined ml-1 text-xs">arrow_forward</span></a></div></div></div></div></section>
-<!-- 6. O MÉTODO BARRETO BASTOS (DARK FOREST LUXURY) -->
-<section class="py-10 md:py-16 bg-racing-green-step-2 text-surface-bright relative overflow-hidden border-y border-gold-brushed/20" id="metodo"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12 relative z-10"><div class="max-w-3xl mb-10 space-y-2.5"><span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-widest text-[11px]">Protocolo Exclusivo</span><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-surface-bright leading-tight">Um método baseado em compreensão, estratégia e acompanhamento.</h2><p class="font-body-md text-body-md text-on-surface-subtle">Diagnóstico causal com proximidade contínua.</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative"><div class="card-monolith p-6 rounded-xl border border-gold-brushed/25 relative flex flex-col justify-between hover:border-gold-champagne/50 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><span class="font-headline-md text-headline-md text-secondary-fixed font-serif tracking-tight">01</span><div class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center text-secondary-fixed border border-secondary/30"><span class="material-symbols-outlined text-lg">fact_check</span></div></div><h3 class="font-title-md text-title-md text-surface-bright font-semibold">Avaliação Clínica Completa</h3><p class="font-body-sm text-body-sm text-on-surface-subtle leading-relaxed text-sm">Anamnese biográfica detalhada e painel hormonal aprofundado.</p></div><div class="mt-6 pt-3 border-t border-gold-brushed/10 flex items-center justify-between text-secondary-fixed font-label-sm text-label-sm"><span class="uppercase tracking-wider text-[11px]">Diagnóstico Causal</span><span class="material-symbols-outlined text-sm">arrow_forward</span></div></div><div class="card-monolith p-6 rounded-xl border border-gold-brushed/25 relative flex flex-col justify-between hover:border-gold-champagne/50 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><span class="font-headline-md text-headline-md text-secondary-fixed font-serif tracking-tight">02</span><div class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center text-secondary-fixed border border-secondary/30"><span class="material-symbols-outlined text-lg">architecture</span></div></div><h3 class="font-title-md text-title-md text-surface-bright font-semibold">Estratégia Terapêutica Sob Medida</h3><p class="font-body-sm text-body-sm text-on-surface-subtle leading-relaxed text-sm">Alinhamento unificado entre medicina e nutrição para sua rotina.</p></div><div class="mt-6 pt-3 border-t border-gold-brushed/10 flex items-center justify-between text-secondary-fixed font-label-sm text-label-sm"><span class="uppercase tracking-wider text-[11px]">Conduta Individualizada</span><span class="material-symbols-outlined text-sm">arrow_forward</span></div></div><div class="card-monolith p-6 rounded-xl border border-gold-brushed/25 relative flex flex-col justify-between hover:border-gold-champagne/50 transition-all"><div class="space-y-3"><div class="flex items-center justify-between"><span class="font-headline-md text-headline-md text-secondary-fixed font-serif tracking-tight">03</span><div class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center text-secondary-fixed border border-secondary/30"><span class="material-symbols-outlined text-lg">all_inclusive</span></div></div><h3 class="font-title-md text-title-md text-surface-bright font-semibold">Acompanhamento Próximo &amp; Seguro</h3><p class="font-body-sm text-body-sm text-on-surface-subtle leading-relaxed text-sm">Consultas periódicas, suporte concierge e ajustes adaptativos.</p></div><div class="mt-6 pt-3 border-t border-gold-brushed/10 flex items-center justify-between text-secondary-fixed font-label-sm text-label-sm"><span class="uppercase tracking-wider text-[11px]">Sustentabilidade &amp; Longevidade</span><span class="material-symbols-outlined text-sm">arrow_forward</span></div></div></div><div class="mt-10 pt-6 border-t border-gold-brushed/10 flex flex-col sm:flex-row items-center justify-between gap-4"><div class="text-surface-bright font-title-md text-title-md text-sm sm:text-base">Pronto para iniciar uma jornada estruturada de saúde?</div><a class="inline-flex items-center bg-secondary-fixed hover:bg-secondary-fixed-dim text-racing-green font-label-md text-label-md px-6 py-2.5 rounded transition-all" href="#agendamento">Conhecer o Método Barreto Bastos</a></div></div></section>
-<!-- 7. DIFERENCIAIS E CONFIANÇA -->
-<section class="py-10 md:py-14 bg-racing-green-step-3 border-y border-gold-brushed/15" id="diferenciais">
-  <div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12">
-    <div class="max-w-2xl mb-8 space-y-2">
-      <span class="font-label-sm text-secondary uppercase tracking-widest text-[11px]">Um cuidado integrado</span>
-      <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white tracking-tight">Clareza, integração e acompanhamento próximo</h2>
-      <p class="font-body-md text-body-md text-on-surface-variant">Conheça os pilares que orientam o atendimento do Instituto.</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <article class="p-5 rounded-xl bg-surface-container-lowest border border-gold-brushed/20 card-monolith">
-        <span class="material-symbols-outlined text-secondary text-2xl" aria-hidden="true">sync_alt</span>
-        <h3 class="font-title-md text-title-md text-white font-semibold mt-3">Equipe integrada</h3>
-        <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-2">Endocrinologia e nutrição alinhadas em um plano de cuidado coordenado.</p>
-      </article>
-      <article class="p-5 rounded-xl bg-surface-container-lowest border border-gold-brushed/20 card-monolith">
-        <span class="material-symbols-outlined text-secondary text-2xl" aria-hidden="true">fact_check</span>
-        <h3 class="font-title-md text-title-md text-white font-semibold mt-3">Avaliação individual</h3>
-        <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-2">Histórico, exames e objetivos são considerados na conversa clínica.</p>
-      </article>
-      <article class="p-5 rounded-xl bg-surface-container-lowest border border-gold-brushed/20 card-monolith">
-        <span class="material-symbols-outlined text-secondary text-2xl" aria-hidden="true">support_agent</span>
-        <h3 class="font-title-md text-title-md text-white font-semibold mt-3">Acompanhamento próximo</h3>
-        <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mt-2">Orientações e revisões acompanham as etapas do plano terapêutico.</p>
-      </article>
-    </div>
-    <a class="inline-flex items-center gap-1.5 mt-6 text-white hover:text-secondary font-label-md text-sm transition-colors" href="#corpo-clinico">Conheça a equipe clínica <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span></a>
-  </div>
-</section>
-<!-- 11. FAQ INTERATIVO -->
-<section class="py-10 md:py-16 bg-racing-green-dark border-t border-gold-brushed/15" id="corpo-clinico">
-  <div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12">
-    <div class="text-center max-w-3xl mx-auto mb-12 space-y-2.5">
-      <span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest text-[11px] block">Corpo Clínico &amp; Direção Técnica</span>
-      <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white tracking-tight leading-tight">Liderança médica e nutricional dedicada ao seu cuidado integral</h2>
-      <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto leading-relaxed">Acompanhamento integrado e individualizado sob rigor científico e escuta ativa.</p>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-      <!-- Card Dr. Gabriel -->
-      <div class="bg-surface-container-low rounded-2xl border border-gold-brushed/20 overflow-hidden flex flex-col md:flex-row hover:border-secondary/60 transition-all duration-300 group card-monolith">
-        <div class="w-full md:w-5/12 relative min-h-[320px] md:min-h-full overflow-hidden bg-primary-container shrink-0">
-          <img loading="lazy" decoding="async" alt="Dr. Gabriel Barreto Bastos - Médico Endocrinologista &amp; Metabologista" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="/assets/dr-gabriel-barreto-bastos.png">
-          <div class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-primary/80 backdrop-blur-sm border border-white/20 text-secondary-fixed text-[11px] font-label-sm uppercase tracking-wider flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-xs">verified</span>Direção Médica
-          </div>
-        </div>
-        <div class="p-6 md:p-8 flex flex-col justify-between flex-1">
-          <div class="space-y-3">
-            <div>
-              <span class="font-label-sm text-[11px] text-secondary tracking-widest uppercase block mb-1">Endocrinologia e Metabologia</span>
-              <h3 class="font-headline-md text-headline-md text-white font-medium tracking-tight">Dr. Gabriel Barreto Bastos</h3>
-              <div class="text-[12px] font-label-md text-on-surface-variant font-medium mt-0.5">CRM/SP 17894 | RQE 91275</div>
-              <div class="text-[12px] font-label-md text-on-surface-variant mt-0.5">CEO • Instituto Barreto Bastos</div>
-            </div>
-            <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">
-              Focado em modulação metabólica, manejo de patologias endócrinas, saúde hormonal e longevidade saudável fundamentada em evidências.
-            </p>
-          </div>
-          <div class="pt-5 mt-6 border-t border-gold-brushed/15 flex items-center justify-between">
-            <span class="text-xs text-on-surface-variant flex items-center gap-1.5 font-label-md"><span class="material-symbols-outlined text-secondary text-sm">clinical_notes</span>Atendimento Individualizado</span>
-            <a class="inline-flex items-center gap-1 text-secondary hover:text-white font-label-md text-xs transition-colors group-hover:translate-x-0.5 duration-200" href="#agendamento">
-              <span class="">Agendar</span>
-              <span class="material-symbols-outlined text-xs">arrow_forward</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card Dra. Fernanda -->
-      <div class="bg-surface-container-low rounded-2xl border border-gold-brushed/20 overflow-hidden flex flex-col md:flex-row hover:border-secondary/60 transition-all duration-300 group card-monolith">
-        <div class="w-full md:w-5/12 relative min-h-[320px] md:min-h-full overflow-hidden bg-primary-container shrink-0">
-          <img loading="lazy" decoding="async" alt="Dra. Fernanda - Nutricionista Clínica Funcional &amp; Comportamental" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105" src="/assets/dra-adriana-bastos.png">
-          <div class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-primary/80 backdrop-blur-sm border border-white/20 text-secondary-fixed text-[11px] font-label-sm uppercase tracking-wider flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-xs">nutrition</span>Nutrição de Precisão
-          </div>
-        </div>
-        <div class="p-6 md:p-8 flex flex-col justify-between flex-1">
-          <div class="space-y-3">
-            <div>
-              <span class="font-label-sm text-[11px] text-secondary tracking-widest uppercase block mb-1">Nutrição Clínica Funcional</span>
-              <h3 class="font-headline-md text-headline-md text-white font-medium tracking-tight">Dra. Fernanda</h3>
-              <div class="text-[12px] font-label-md text-on-surface-variant font-medium mt-0.5">CRM/SP 272076 • CRM/BA 39655</div>
-            </div>
-            <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-sm">
-              Especialista em composição corporal avançada, nutrição de precisão e reeducação metabólica sustentável sem prescrições restritivas.
-            </p>
-          </div>
-          <div class="pt-5 mt-6 border-t border-gold-brushed/15 flex items-center justify-between">
-            <span class="text-xs text-on-surface-variant flex items-center gap-1.5 font-label-md"><span class="material-symbols-outlined text-secondary text-sm">monitoring</span>Bioimpedância Integrada</span>
-            <a class="inline-flex items-center gap-1 text-secondary hover:text-white font-label-md text-xs transition-colors group-hover:translate-x-0.5 duration-200" href="#agendamento">
-              <span class="">Agendar</span>
-              <span class="material-symbols-outlined text-xs">arrow_forward</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><section class="py-10 md:py-16 bg-racing-green-step-5 text-surface-bright relative overflow-hidden border-y border-gold-brushed/20" id="duvidas"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12 relative z-10"><div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12"><div class="lg:col-span-5 space-y-4"><span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-widest text-[11px]">Esclarecimentos</span><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-surface-bright leading-tight">Perguntas Frequentes</h2><p class="font-body-md text-body-md text-on-surface-subtle leading-relaxed">Sintomas persistentes exigem diagnóstico preciso dos desajustes metabólicos e hormonais.</p><div class="card-monolith p-6 rounded-xl border border-gold-brushed/30 mt-4"><h4 class="font-title-md text-title-md text-surface-bright text-sm font-semibold">Precisa de suporte imediato?</h4><p class="font-body-sm text-body-sm text-on-surface-subtle mt-1.5 mb-4 text-sm leading-relaxed">Nossa equipe concierge responde suas dúvidas sobre agendamentos e horários.</p><a class="inline-flex items-center gap-2 text-secondary-fixed font-label-md text-label-md hover:text-surface-bright transition-colors text-xs" href="https://wa.me/5519999999999" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-secondary-fixed text-base" style="font-variation-settings: &quot;FILL&quot; 1;">chat</span><span class="border-b border-secondary/50 pb-0.5">Conversar no WhatsApp Concierge</span></a></div></div><div class="lg:col-span-7 space-y-3.5"><details class="group card-monolith rounded-xl p-5 [&amp;_summary::-webkit-details-marker]:hidden transition-all hover:border-gold-champagne/50" open=""><summary class="flex items-center justify-between cursor-pointer list-none"><h3 class="font-title-md text-title-md text-surface-bright text-sm font-semibold">Como funciona a primeira consulta no Instituto?</h3><span class="material-symbols-outlined text-secondary-fixed group-open:rotate-180 transition-transform duration-200 text-lg">expand_more</span></summary><p class="font-body-sm text-body-sm text-on-surface-subtle mt-3 pt-3 border-t border-gold-brushed/10 leading-relaxed text-sm">Anamnese completa, rotina de sono, estresse, estilo de vida e solicitação de exames de precisão.</p></details><details class="group card-monolith rounded-xl p-5 [&amp;_summary::-webkit-details-marker]:hidden transition-all hover:border-gold-champagne/50"><summary class="flex items-center justify-between cursor-pointer list-none"><h3 class="font-title-md text-title-md text-surface-bright text-sm font-semibold">A clínica atende por convênios médicos?</h3><span class="material-symbols-outlined text-secondary-fixed group-open:rotate-180 transition-transform duration-200 text-lg">expand_more</span></summary><p class="font-body-sm text-body-sm text-on-surface-subtle mt-3 pt-3 border-t border-gold-brushed/10 leading-relaxed text-sm">Atendimento exclusivamente particular com emissão de documentação completa para reembolso.</p></details><details class="group card-monolith rounded-xl p-5 [&amp;_summary::-webkit-details-marker]:hidden transition-all hover:border-gold-champagne/50"><summary class="flex items-center justify-between cursor-pointer list-none"><h3 class="font-title-md text-title-md text-surface-bright text-sm font-semibold">O plano de emagrecimento envolve medicamentos?</h3><span class="material-symbols-outlined text-secondary-fixed group-open:rotate-180 transition-transform duration-200 text-lg">expand_more</span></summary><p class="font-body-sm text-body-sm text-on-surface-subtle mt-3 pt-3 border-t border-gold-brushed/10 leading-relaxed text-sm">Prescrição personalizada apenas quando houver indicação clínica precisa.</p></details><details class="group card-monolith rounded-xl p-5 [&amp;_summary::-webkit-details-marker]:hidden transition-all hover:border-gold-champagne/50"><summary class="flex items-center justify-between cursor-pointer list-none"><h3 class="font-title-md text-title-md text-surface-bright text-sm font-semibold">A consulta inclui bioimpedância corporal?</h3><span class="material-symbols-outlined text-secondary-fixed group-open:rotate-180 transition-transform duration-200 text-lg">expand_more</span></summary><p class="font-body-sm text-body-sm text-on-surface-subtle mt-3 pt-3 border-t border-gold-brushed/10 leading-relaxed text-sm">Sim, realizada em consultório com laudo segmentar de composição corporal.</p></details><details class="group card-monolith rounded-xl p-5 [&amp;_summary::-webkit-details-marker]:hidden transition-all hover:border-gold-champagne/50"><summary class="flex items-center justify-between cursor-pointer list-none"><h3 class="font-title-md text-title-md text-surface-bright text-sm font-semibold">Onde o Instituto está localizado em Campinas?</h3><span class="material-symbols-outlined text-secondary-fixed group-open:rotate-180 transition-transform duration-200 text-lg">expand_more</span></summary><p class="font-body-sm text-body-sm text-on-surface-subtle mt-3 pt-3 border-t border-gold-brushed/10 leading-relaxed text-sm">Estamos na R. Barreto Leme, 2060, no Cambuí, em Campinas, com estacionamento e valet.</p></details></div></div></div></section>
-<!-- 12. LOCALIZAÇÃO, AGENDAMENTO & FORMULÁRIO -->
-<section class="py-10 md:py-16 bg-racing-green-step-6 border-t border-gold-brushed/15" id="agendamento"><div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12"><div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start"><div class="lg:col-span-5 space-y-6"><div><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest text-[11px]">Pré-Agendamento</span><h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-white mt-1">Inicie seu acompanhamento</h2><p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Preencha os campos ao lado para que nosso concierge entre em contato alinhando os melhores horários e orientações.</p></div><div class="space-y-3.5"><div class="flex items-start gap-3"><span class="material-symbols-outlined text-secondary mt-0.5 text-xl">pin_drop</span><div><div class="font-title-md text-title-md text-white text-sm font-semibold">Endereço</div><div class="font-body-sm text-body-sm text-on-surface-variant text-[13px]">R. Barreto Leme, 2060 - Cambuí, Campinas - SP</div><div class="font-body-sm text-body-sm text-on-surface-muted text-[11px]">Instituto Barreto Bastos • Estacionamento e Valet</div></div></div><div class="flex items-start gap-3"><span class="material-symbols-outlined text-secondary mt-0.5 text-xl">schedule</span><div><div class="font-title-md text-title-md text-white text-sm font-semibold">Horário de Atendimento</div><div class="font-body-sm text-body-sm text-on-surface-variant text-[13px]">Segunda a Sexta: 08h às 19h</div><div class="font-body-sm text-body-sm text-on-surface-muted text-[11px]">Consultas com hora marcada</div></div></div><div class="flex items-start gap-3"><span class="material-symbols-outlined text-secondary mt-0.5 text-xl">chat</span><div><div class="font-title-md text-title-md text-white text-sm font-semibold">Concierge Digital</div><div class="font-body-sm text-body-sm text-on-surface-variant text-[13px]">(19) 99999-9999</div><div class="font-body-sm text-body-sm text-on-surface-muted text-[11px]">Atendimento ágil via WhatsApp</div></div></div></div><div class="rounded-lg overflow-hidden border border-gold-brushed/30 bg-surface-container-lowest p-2 card-monolith"><a href="https://share.google/ulN80TaJiqHJsgTR6" target="_blank" rel="noopener noreferrer" aria-label="Ver Instituto Barreto Bastos no Google Meu Negócio" class="block h-36 w-full rounded overflow-hidden relative bg-surface-container-high flex items-center justify-center"><img loading="lazy" decoding="async" class="w-full h-full object-cover" data-alt="Stylized architectural aerial map rendering of Cambui neighborhood in Campinas Brazil with pinpoint for luxury medical clinic." data-location="Campinas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHIQ4NxIcys3xwWQXXBjbeUi_x1sMEpLBIcVYt2lWkMOTm_zJy2QHMtpobcZVCNpTlJdVUNE0YX6Sf-E2b5l_E8d9qLqbRF4Kq3ajFlRom2JChK5ICjVLJQ0rrGc8v-dngdXnqqjLESouSudrTatJdUOg6xoUueS0eHVRsEoZxyqN-ju5yaUZ1XP2QVM0uSAcAXLDC9n78VheTRRlxtPkqJbaG8xreGSQdRgKYYr4MbbNr2faOtu41vw"><div class="absolute inset-0 bg-primary/20 backdrop-blur-[1px] flex items-center justify-center"><span class="px-3 py-1.5 rounded bg-surface-container-lowest font-label-md text-label-md text-white border border-gold-brushed/20 flex items-center gap-1.5 text-xs"><span class="material-symbols-outlined text-secondary text-xs">place</span>R. Barreto Leme, 2060 • Cambuí<span class="material-symbols-outlined text-secondary text-xs">open_in_new</span></span></div></a></div></div><div class="lg:col-span-7"><div class="bg-surface-container-lowest p-6 sm:p-8 rounded-2xl border border-gold-brushed/20 relative overflow-hidden card-monolith"><div class="flex flex-wrap items-center justify-between gap-3 mb-6"><div><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-low border border-secondary/30 text-secondary font-label-sm uppercase tracking-wider text-[10px] mb-2"><span class="w-1.5 h-1.5 rounded-full bg-secondary shrink-0 animate-pulse"></span>Vagas Sob Consulta • Retorno Ágil</div><h3 class="font-headline-sm text-headline-sm text-white font-medium tracking-tight">Solicitar Agendamento</h3><p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 text-xs">Entraremos em contato com discrição e prioridade para alinhar seu horário.</p></div><div class="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-surface-container-low/60 border border-gold-brushed/15 text-on-surface-variant text-[11px] font-label-sm"><span class="material-symbols-outlined text-secondary text-sm">lock</span><span class="">Sigilo CFM</span></div></div><form class="space-y-4" aria-label="Solicitar avaliação" onsubmit="event.preventDefault(); alert('Solicitação recebida com sucesso. Nosso concierge entrará em contato em breve.');">
-  <div>
-    <label class="block font-label-md text-white mb-1.5 text-sm" for="nome">Nome <span class="text-secondary" aria-hidden="true">*</span></label>
-    <input class="w-full min-h-11 px-3.5 py-2.5 bg-surface-container-lowest border border-gold-brushed/30 rounded-lg focus:border-secondary focus:ring-2 focus:ring-secondary/20 outline-none transition-all text-sm" id="nome" name="name" autocomplete="name" placeholder="Como podemos chamar você?" required type="text">
-  </div>
-  <div>
-    <label class="block font-label-md text-white mb-1.5 text-sm" for="whatsapp">WhatsApp / telefone <span class="text-secondary" aria-hidden="true">*</span></label>
-    <input class="w-full min-h-11 px-3.5 py-2.5 bg-surface-container-lowest border border-gold-brushed/30 rounded-lg focus:border-secondary focus:ring-2 focus:ring-secondary/20 outline-none transition-all text-sm" id="whatsapp" name="telephone" autocomplete="tel" inputmode="tel" placeholder="(19) 99999-9999" required type="tel">
-  </div>
-  <div>
-    <label class="block font-label-md text-white mb-1.5 text-sm" for="especialidade">O que você procura? <span class="font-normal text-on-surface-variant">(opcional)</span></label>
-    <select class="w-full min-h-11 px-3.5 py-2.5 bg-surface-container-lowest border border-gold-brushed/30 rounded-lg focus:border-secondary focus:ring-2 focus:ring-secondary/20 outline-none transition-all text-sm" id="especialidade" name="interest">
-      <option value="">Selecione uma opção</option>
-      <option>Avaliação integrada</option>
-      <option>Endocrinologia e metabologia</option>
-      <option>Emagrecimento e obesidade</option>
-      <option>Saúde hormonal e longevidade</option>
-      <option>Nutrição clínica</option>
-    </select>
-  </div>
-  <p class="font-body-sm text-on-surface-variant text-xs" id="form-privacy-note">Solicitamos apenas os dados necessários para responder ao seu pedido.</p>
-  <button class="w-full min-h-12 py-3.5 bg-gradient-to-r from-gold-champagne via-gold-brushed to-gold-dark text-racing-green font-semibold text-sm uppercase tracking-wider rounded-md shadow-[0_0_20px_rgba(223,194,141,0.22)] hover:shadow-[0_0_30px_rgba(223,194,141,0.35)] transition-all duration-300 flex items-center justify-center gap-2 group cursor-pointer" type="submit"><span class="font-semibold">Agendar avaliação</span><span class="material-symbols-outlined text-secondary-fixed text-base transition-transform group-hover:translate-x-1" aria-hidden="true">arrow_forward</span></button>
-  <p class="text-center text-on-surface-variant text-xs">Retorno do concierge para alinhar os próximos passos.</p>
-</form></div></div></div></div></section>
-</main>
-<!-- 13. FOOTER (Footer Component as per JSON) -->
-<footer class="docked full-width bg-racing-green-step-7 border-t border-gold-brushed/10 text-surface-bright">
-<div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-12 flex flex-col space-y-12 py-12">
-<!-- Top Row of Footer -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-10">
-<!-- Brand Info -->
-<div class="md:col-span-5 space-y-4">
-<div class="flex items-center gap-3"><div class="h-10 flex items-center"><img alt="Instituto Barreto Bastos - Saúde Integrada e Longevidade" class="h-full w-auto max-w-[220px] object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArU86YDBUKotYnJ_rZlyZ53JTUm-93mdqeopkxTJe48-vbsfK2mrukbVE0pRMtfXkXOOnRBq_tokK80EQRY1JGYcmV6jKkoMZfx-Gd2pqpeScj2wlXe2KnZYCinRsRIvG4CjIJA8UPgZj9NyMTkkcQ5vxg1W8GjF5cVvUmWV9xeKMU5WhVjQtgQojW5wb6k8j7tiqCkzig0JT5R8AZd5G40zMYAv3Fzix0XLPm_ieCUvY2lh18tib6bq04hY9wDxZL5OM"></div></div>
-<p class="font-body-sm text-body-sm text-on-surface-subtle max-w-md leading-relaxed">
-            Clínica médica dedicada à endocrinologia, metabologia e nutrição clínica em Campinas/SP. Cuidado individualizado, fundamentado em evidências e desenhado para longevidade e bem-estar contínuo.
+  </header>
+
+  <main id="conteudo-principal" tabindex="-1">
+    <section class="relative isolate overflow-hidden border-b border-gold-brushed/15 bg-racing-green px-4 py-12 sm:px-6 sm:py-16 lg:px-12 lg:py-24" id="inicio">
+      <div class="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-racing-green-light/25 blur-3xl" aria-hidden="true"></div>
+      <div class="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-12">
+        <div class="relative z-10 lg:col-span-5">
+          <p class="mb-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[.14em] text-gold-champagne sm:text-sm">
+            <span class="h-px w-7 bg-gold-brushed" aria-hidden="true"></span>
+            Endocrinologia e Nutrologia <span aria-hidden="true">•</span> Cambuí, Campinas
           </p>
-<div class="pt-2 text-surface-bright font-label-sm text-label-sm">
-            Campinas - Cambuí • São Paulo
+          <h1 class="max-w-2xl font-headline text-[2.35rem] font-medium leading-[1.12] tracking-[-.025em] text-white sm:text-5xl lg:text-[3.25rem]">
+            Cuidado médico em endocrinologia e nutrologia, com tempo para ouvir e acompanhar você.
+          </h1>
+          <p class="mt-5 max-w-xl text-base leading-7 text-on-surface-subtle sm:text-lg sm:leading-8">
+            Avaliação individual, plano de tratamento baseado em evidências e acompanhamento ao longo do processo. Presencial em Campinas ou por telemedicina, para todo o Brasil.
+          </p>
+          <div class="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a class="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-gradient-to-r from-gold-champagne to-gold-brushed px-7 py-3 text-sm font-semibold text-racing-green transition-all hover:brightness-105" href="#agendamento">
+              Agendar consulta <span class="material-symbols-outlined text-lg" aria-hidden="true">arrow_forward</span>
+            </a>
+            <span class="text-sm text-on-surface-subtle">Presencial em Campinas · Online em todo o Brasil</span>
           </div>
-</div>
-<!-- Links as defined in JSON -->
-<div class="md:col-span-4">
-<div class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider mb-4">
-            Especialidades &amp; Conteúdo
-          </div>
-<ul class="space-y-2.5">
-<li class=""><a class="text-on-surface-subtle font-body-sm text-body-sm hover:text-secondary-fixed transition-colors duration-200" href="#especialidades">Endocrinologia &amp; Metabologia</a></li>
-<li class=""><a class="text-on-surface-subtle font-body-sm text-body-sm hover:text-secondary-fixed transition-colors duration-200" href="#especialidades">Nutrição Clínica</a></li>
-<li class=""><a class="text-on-surface-subtle font-body-sm text-body-sm hover:text-secondary-fixed transition-colors duration-200" href="#especialidades">Saúde Hormonal &amp; Longevidade</a></li>
-<li class=""><a class="text-on-surface-subtle font-body-sm text-body-sm hover:text-secondary-fixed transition-colors duration-200" href="#corpo-clinico">Corpo Clínico &amp; RQE</a></li>
-</ul>
-</div>
-<!-- Institutional & Legal -->
-<div class="md:col-span-3">
-<div class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider mb-4">
-            Institucional
-          </div>
-<ul class="space-y-2.5">
-<li class=""><a class="text-on-surface-subtle font-body-sm text-body-sm hover:text-secondary-fixed transition-colors duration-200" href="#o-instituto">Campinas - Cambuí</a></li>
-<li class=""><a class="text-on-surface-subtle font-body-sm text-body-sm hover:text-secondary-fixed transition-colors duration-200" href="#agendamento">Termos de Uso e Privacidade CFM</a></li>
-<li class=""><a class="text-secondary-fixed font-body-sm text-body-sm hover:underline" href="https://wa.me/5519999999999" rel="noopener noreferrer" target="_blank">WhatsApp Concierge Oficial</a></li>
-</ul>
-</div>
-</div>
-<!-- Bottom Compliance Disclaimer from JSON -->
-<div class="pt-8 border-t border-gold-brushed/10 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-4">
-<p class="font-body-sm text-body-sm text-on-surface-subtle">
-          © 2024 Instituto Barreto Bastos. Todos os direitos reservados. Responsável Técnico: Dr. Gabriel Barreto Bastos CRM/SP 17894 - RQE 91275. De acordo com a Resolução CFM 1.974/11.
-        </p>
-<div class="font-label-sm text-label-sm text-on-surface-muted shrink-0">
-          Campinas • SP
         </div>
-</div>
-</div>
-</footer>
-<!-- Botão Flutuante de WhatsApp Fixo -->
-<a aria-label="Fale conosco via WhatsApp" class="fixed bottom-6 right-6 z-40 flex items-center gap-2.5 rounded-full border border-gold-brushed/50 bg-racing-green-dark/95 px-4 py-3 text-gold-light shadow-[0_8px_28px_rgba(0,0,0,0.32)] backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-gold-champagne" href="https://wa.me/5519999999999" rel="noopener noreferrer" target="_blank">
-<span class="material-symbols-outlined text-secondary-fixed text-2xl" style="font-variation-settings: &quot;FILL&quot; 1;">chat</span>
-<span class="font-label-md text-label-md pr-1 hidden sm:inline">WhatsApp Concierge</span>
-</a>
+        <figure class="relative lg:col-span-7">
+          <div class="absolute -inset-3 rounded-2xl border border-gold-brushed/20" aria-hidden="true"></div>
+          <div class="relative aspect-[4/3] overflow-hidden rounded-xl border border-gold-brushed/25 bg-racing-green-dark sm:aspect-[16/10]">
+            <img class="h-full w-full object-cover" src="/assets/clinic-front.jpeg" alt="Fachada do Instituto Barreto Bastos no Cambuí, em Campinas." fetchpriority="high" decoding="async">
+            <div class="absolute inset-0 bg-gradient-to-t from-racing-green-dark/55 via-transparent to-transparent" aria-hidden="true"></div>
+            <figcaption class="absolute bottom-4 left-4 right-4 text-xs text-white/90 sm:bottom-6 sm:left-6">Instituto Barreto Bastos · Cambuí, Campinas</figcaption>
+          </div>
+        </figure>
+      </div>
+    </section>
 
+    <section class="border-b border-gold-brushed/15 bg-racing-green-dark px-4 py-8 sm:px-6 lg:px-12" aria-label="Destaques do atendimento">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <article class="card-monolith rounded-xl p-5">
+          <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">hearing</span>
+          <h2 class="mt-3 text-base font-semibold text-white">Consulta sem pressa</h2>
+          <p class="mt-1 text-sm leading-6 text-on-surface-subtle">Tempo para entender sua história, sua rotina e seus exames.</p>
+        </article>
+        <article class="card-monolith rounded-xl p-5">
+          <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">clinical_notes</span>
+          <h2 class="mt-3 text-base font-semibold text-white">Avaliação completa</h2>
+          <p class="mt-1 text-sm leading-6 text-on-surface-subtle">Exame clínico, exames laboratoriais e composição corporal quando indicados.</p>
+        </article>
+        <article class="card-monolith rounded-xl p-5">
+          <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">edit_note</span>
+          <h2 class="mt-3 text-base font-semibold text-white">Plano individual</h2>
+          <p class="mt-1 text-sm leading-6 text-on-surface-subtle">Condutas definidas para o seu caso e ajustadas a cada retorno.</p>
+        </article>
+        <a class="card-monolith group rounded-xl p-5 transition-colors hover:border-gold-champagne/50" href="#corpo-clinico">
+          <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">groups</span>
+          <h2 class="mt-3 flex items-center gap-2 text-base font-semibold text-white">Equipe médica <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1" aria-hidden="true">arrow_forward</span></h2>
+          <p class="mt-1 text-sm leading-6 text-on-surface-subtle">Conheça quem conduz o seu cuidado.</p>
+        </a>
+      </div>
+    </section>
 
-</body></html>
+    <section class="bg-racing-green px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="quando-procurar">
+      <div class="mx-auto max-w-7xl">
+        <div class="mb-10 max-w-3xl">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Quando procurar</p>
+          <h2 class="mt-3 font-headline text-3xl leading-tight text-white sm:text-4xl">Alguns sinais merecem uma avaliação médica.</h2>
+          <p class="mt-3 text-base leading-7 text-on-surface-subtle">Sintomas que persistem podem ter causa hormonal ou metabólica. A consulta serve para investigar, não para presumir.</p>
+        </div>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="card-monolith rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">monitor_weight</span>
+            <h3 class="mt-3 text-lg font-semibold text-white">Dificuldade para emagrecer</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">O peso não responde, mesmo com mudanças na alimentação e na rotina.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">battery_low</span>
+            <h3 class="mt-3 text-lg font-semibold text-white">Cansaço e baixa disposição</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Fadiga que se mantém e atrapalha o dia a dia.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">sync_alt</span>
+            <h3 class="mt-3 text-lg font-semibold text-white">Alterações hormonais</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Mudanças em ciclo menstrual, libido, humor ou composição corporal.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">autorenew</span>
+            <h3 class="mt-3 text-lg font-semibold text-white">Reganho de peso</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Peso que volta depois de cada tentativa.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">bedtime</span>
+            <h3 class="mt-3 text-lg font-semibold text-white">Sono não reparador</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Acordar cansado, com alterações de apetite ao longo do dia.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">event_repeat</span>
+            <h3 class="mt-3 text-lg font-semibold text-white">Tratamento sem seguimento</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Condutas pontuais, sem alguém acompanhando a evolução.</p>
+          </article>
+        </div>
+        <div class="mt-8">
+          <a class="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-gold-champagne transition-colors hover:text-gold-light" href="#agendamento">Quero avaliar meu caso <span class="material-symbols-outlined text-lg" aria-hidden="true">arrow_forward</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-gold-brushed/15 bg-racing-green-dark px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="o-instituto">
+      <div class="mx-auto max-w-7xl">
+        <div class="mb-10 max-w-3xl">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">O Instituto</p>
+          <h2 class="mt-3 font-headline text-3xl leading-tight text-white sm:text-4xl">Um espaço pensado para a consulta acontecer com calma</h2>
+          <p class="mt-3 text-base leading-7 text-on-surface-subtle">Consultórios privativos no Cambuí, em Campinas, com avaliação de composição corporal no próprio local.</p>
+        </div>
+        <div class="grid grid-cols-1 gap-5 lg:grid-cols-12 lg:items-stretch">
+          <figure class="group relative min-h-[300px] overflow-hidden rounded-xl border border-gold-brushed/25 bg-racing-green lg:col-span-7">
+            <img class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" src="/assets/clinic-front.jpeg" alt="Fachada real do Instituto Barreto Bastos, no Cambuí, em Campinas." loading="lazy" decoding="async">
+            <div class="absolute inset-0 bg-gradient-to-t from-racing-green-dark/80 via-racing-green-dark/10 to-transparent" aria-hidden="true"></div>
+            <figcaption class="absolute bottom-5 left-5 right-5 text-sm text-white">A clínica está localizada no Cambuí, em Campinas.</figcaption>
+          </figure>
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-1">
+            <article class="card-monolith flex flex-col justify-center rounded-xl p-6 sm:p-7">
+              <span class="material-symbols-outlined text-3xl text-gold-champagne" aria-hidden="true">meeting_room</span>
+              <h3 class="mt-4 font-headline text-2xl text-white">Consulta com tempo e privacidade</h3>
+              <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Ambiente reservado para conversar sobre sua saúde, sua rotina e seus objetivos.</p>
+            </article>
+            <article class="card-monolith flex flex-col justify-center rounded-xl p-6 sm:p-7">
+              <span class="material-symbols-outlined text-3xl text-gold-champagne" aria-hidden="true">monitoring</span>
+              <h3 class="mt-4 font-headline text-2xl text-white">Bioimpedância no consultório</h3>
+              <p class="mt-2 text-sm leading-6 text-on-surface-subtle">O exame estima massa muscular, gordura corporal e água corporal, e pode ajudar a acompanhar a evolução do tratamento.</p>
+            </article>
+          </div>
+        </div>
+        <div class="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <div class="flex items-center gap-3 rounded-lg border border-gold-brushed/15 bg-racing-green/70 p-4 text-sm text-on-surface-subtle"><span class="material-symbols-outlined text-xl text-gold-champagne" aria-hidden="true">lock</span><span><strong class="font-semibold text-white">Atendimento privativo</strong><br>Consultas individuais, com hora marcada.</span></div>
+          <div class="flex items-center gap-3 rounded-lg border border-gold-brushed/15 bg-racing-green/70 p-4 text-sm text-on-surface-subtle"><span class="material-symbols-outlined text-xl text-gold-champagne" aria-hidden="true">sync_alt</span><span><strong class="font-semibold text-white">Avaliação integrada</strong><br>Endocrinologia e nutrologia no mesmo local.</span></div>
+          <div class="flex items-center gap-3 rounded-lg border border-gold-brushed/15 bg-racing-green/70 p-4 text-sm text-on-surface-subtle"><span class="material-symbols-outlined text-xl text-gold-champagne" aria-hidden="true">location_on</span><span><strong class="font-semibold text-white">Fácil acesso</strong><br>Cambuí, Campinas.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-racing-green px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="especialidades">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto mb-10 max-w-3xl text-center">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Especialidades médicas</p>
+          <h2 class="mt-3 font-headline text-3xl text-white sm:text-4xl">Áreas de atendimento</h2>
+          <p class="mt-3 text-base leading-7 text-on-surface-subtle">Cada plano é definido em consulta, a partir da sua avaliação.</p>
+        </div>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">monitor_weight</span>
+            <h3 class="mt-4 text-lg font-semibold text-white">Emagrecimento e obesidade</h3>
+            <p class="mt-2 flex-1 text-sm leading-6 text-on-surface-subtle">Tratamento da obesidade como doença crônica, com atenção à preservação de massa muscular e metas realistas.</p>
+            <a class="mt-6 inline-flex min-h-11 items-center gap-2 border-t border-gold-brushed/15 pt-4 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="#agendamento">Agendar consulta <span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span></a>
+          </article>
+          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">health_and_safety</span>
+            <h3 class="mt-4 text-lg font-semibold text-white">Saúde hormonal</h3>
+            <p class="mt-2 flex-1 text-sm leading-6 text-on-surface-subtle">Investigação e tratamento de alterações hormonais, com indicação baseada em diagnóstico.</p>
+            <a class="mt-6 inline-flex min-h-11 items-center gap-2 border-t border-gold-brushed/15 pt-4 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="#agendamento">Agendar consulta <span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span></a>
+          </article>
+          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">biotech</span>
+            <h3 class="mt-4 text-lg font-semibold text-white">Doenças endócrinas e metabólicas</h3>
+            <p class="mt-2 flex-1 text-sm leading-6 text-on-surface-subtle">Diabetes, tireoide, esteatose hepática, adrenais e hipófise.</p>
+            <a class="mt-6 inline-flex min-h-11 items-center gap-2 border-t border-gold-brushed/15 pt-4 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="#agendamento">Agendar consulta <span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span></a>
+          </article>
+          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-6">
+            <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">restaurant</span>
+            <h3 class="mt-4 text-lg font-semibold text-white">Nutrologia</h3>
+            <p class="mt-2 flex-1 text-sm leading-6 text-on-surface-subtle">Avaliação médica do estado nutricional, da composição corporal e de deficiências, com orientação individual.</p>
+            <a class="mt-6 inline-flex min-h-11 items-center gap-2 border-t border-gold-brushed/15 pt-4 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="#agendamento">Agendar consulta <span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-gold-brushed/15 bg-racing-green-step-2 px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="como-cuidamos">
+      <div class="mx-auto max-w-7xl">
+        <div class="mb-10 max-w-3xl">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Como cuidamos</p>
+          <h2 class="mt-3 font-headline text-3xl leading-tight text-white sm:text-4xl">Um cuidado em três etapas: entender, planejar e acompanhar.</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <article class="card-monolith rounded-xl p-6 sm:p-7">
+            <span class="font-headline text-4xl text-gold-champagne">01</span>
+            <h3 class="mt-5 text-xl font-semibold text-white">Avaliação clínica completa</h3>
+            <p class="mt-3 text-sm leading-6 text-on-surface-subtle">História clínica detalhada, exame físico e exames solicitados conforme o seu caso.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-6 sm:p-7">
+            <span class="font-headline text-4xl text-gold-champagne">02</span>
+            <h3 class="mt-5 text-xl font-semibold text-white">Plano de tratamento individual</h3>
+            <p class="mt-3 text-sm leading-6 text-on-surface-subtle">Condutas definidas com você, considerando diagnóstico, rotina e objetivos.</p>
+          </article>
+          <article class="card-monolith rounded-xl p-6 sm:p-7">
+            <span class="font-headline text-4xl text-gold-champagne">03</span>
+            <h3 class="mt-5 text-xl font-semibold text-white">Acompanhamento</h3>
+            <p class="mt-3 text-sm leading-6 text-on-surface-subtle">Retornos periódicos para avaliar resultados e ajustar o plano.</p>
+          </article>
+        </div>
+        <div class="mt-10 flex flex-col items-start justify-between gap-4 border-t border-gold-brushed/15 pt-7 sm:flex-row sm:items-center">
+          <p class="font-headline text-xl text-white">Quer começar pela avaliação?</p>
+          <a class="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-gradient-to-r from-gold-champagne to-gold-brushed px-6 text-sm font-semibold text-racing-green hover:brightness-105" href="#agendamento">Agendar consulta <span class="material-symbols-outlined text-lg" aria-hidden="true">arrow_forward</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-racing-green-step-3 px-4 py-16 sm:px-6 lg:px-12 lg:py-20" id="pilares">
+      <div class="mx-auto max-w-7xl">
+        <div class="mb-9 max-w-2xl">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">O que orienta o atendimento no Instituto</p>
+          <h2 class="mt-3 font-headline text-3xl leading-tight text-white sm:text-4xl">Clareza, integração e acompanhamento</h2>
+        </div>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <article class="card-monolith rounded-xl p-5 sm:p-6"><span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">sync_alt</span><h3 class="mt-4 text-lg font-semibold text-white">Equipe integrada</h3><p class="mt-2 text-sm leading-6 text-on-surface-subtle">Endocrinologia e nutrologia alinhadas no mesmo plano de cuidado.</p></article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6"><span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">fact_check</span><h3 class="mt-4 text-lg font-semibold text-white">Avaliação individual</h3><p class="mt-2 text-sm leading-6 text-on-surface-subtle">Histórico, exames e objetivos entram na decisão clínica.</p></article>
+          <article class="card-monolith rounded-xl p-5 sm:p-6"><span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">event_repeat</span><h3 class="mt-4 text-lg font-semibold text-white">Acompanhamento</h3><p class="mt-2 text-sm leading-6 text-on-surface-subtle">Orientações e revisões a cada etapa do tratamento.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-gold-brushed/15 bg-racing-green-dark px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="corpo-clinico">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto mb-10 max-w-3xl text-center">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Corpo clínico</p>
+          <h2 class="mt-3 font-headline text-3xl text-white sm:text-4xl">Quem cuida de você</h2>
+          <p class="mt-3 text-base leading-7 text-on-surface-subtle">Médicos com formação em endocrinologia e nutrologia, atuando de forma integrada.</p>
+        </div>
+        <div class="grid grid-cols-1 items-stretch gap-5 lg:grid-cols-2">
+          <article class="card-monolith flex flex-col overflow-hidden rounded-xl sm:flex-row">
+            <div class="aspect-[4/3] w-full shrink-0 overflow-hidden bg-racing-green sm:aspect-auto sm:w-5/12">
+              <img class="h-full w-full object-cover" src="/assets/dr-gabriel-barreto-bastos.png" alt="Dr. Gabriel Barreto Bastos, médico endocrinologista e metabologista" loading="lazy" decoding="async">
+            </div>
+            <div class="flex flex-1 flex-col p-5 sm:p-6">
+              <span class="w-fit rounded-sm border border-gold-brushed/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-champagne">Responsável técnico</span>
+              <p class="mt-4 text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Endocrinologia e Metabologia</p>
+              <h3 class="mt-1 font-headline text-2xl text-white">Dr. Gabriel Barreto Bastos</h3>
+              <p class="mt-2 text-sm text-on-surface-subtle">CRM-SP 178994 | RQE 91275</p>
+              <p class="mt-4 flex-1 text-sm leading-6 text-on-surface-subtle">Médico formado pela Escola Bahiana de Medicina, com residência em Clínica Médica no Hospital Mário Gatti (Campinas) e em Endocrinologia no Hospital Santa Marcelina (São Paulo). Atende diabetes, tireoide, obesidade e saúde hormonal, e é professor em cursos de pós-graduação médica.</p>
+              <div class="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-gold-brushed/15 pt-4">
+                <span class="text-xs text-on-surface-subtle">Presencial e telemedicina</span>
+                <a class="inline-flex min-h-11 items-center gap-1 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="#agendamento">Agendar <span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-7">
+            <span class="w-fit rounded-sm border border-gold-brushed/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-champagne">Dados profissionais em confirmação</span>
+            <p class="mt-5 text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Médica</p>
+            <h3 class="mt-1 font-headline text-2xl text-white">Dra. Fernanda</h3>
+            <p class="mt-2 text-sm text-on-surface-subtle">CRM-SP 272076 | CRM-BA 39655</p>
+            <p class="mt-5 text-sm leading-6 text-on-surface-subtle">O sobrenome completo, o RQE e os dados de formação aguardam confirmação. A imagem profissional também será incluída após validação.</p>
+            <div class="mt-5 flex-1 rounded-lg border border-dashed border-gold-brushed/25 bg-racing-green-dark/50 p-4 text-sm leading-6 text-on-surface-subtle">A designação profissional e a biografia serão atualizadas após a conferência dos registros.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-racing-green-step-5 px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="duvidas">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
+        <div class="lg:col-span-4">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Dúvidas</p>
+          <h2 class="mt-3 font-headline text-3xl text-white sm:text-4xl">Perguntas frequentes</h2>
+          <p class="mt-3 text-base leading-7 text-on-surface-subtle">O que os pacientes costumam perguntar antes da primeira consulta.</p>
+          <div class="card-monolith mt-6 rounded-xl p-5">
+            <h3 class="text-base font-semibold text-white">Não encontrou sua dúvida?</h3>
+            <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Fale com a nossa equipe pelo WhatsApp.</p>
+            <a class="mt-4 inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="https://wa.me/5519993410224" target="_blank" rel="noopener noreferrer">Conversar no WhatsApp <span class="material-symbols-outlined text-lg" aria-hidden="true">arrow_forward</span></a>
+          </div>
+        </div>
+        <div class="space-y-3 lg:col-span-8">
+          <details class="card-monolith group rounded-xl p-5" open>
+            <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white [&amp;::-webkit-details-marker]:hidden">Como funciona a primeira consulta?<span class="material-symbols-outlined shrink-0 text-gold-champagne transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span></summary>
+            <p class="mt-3 border-t border-gold-brushed/15 pt-3 text-sm leading-6 text-on-surface-subtle">O médico conversa sobre seu histórico, sua rotina, sono e alimentação, faz o exame físico e solicita os exames necessários para o seu caso.</p>
+          </details>
+          <details class="card-monolith group rounded-xl p-5">
+            <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white [&amp;::-webkit-details-marker]:hidden">O Instituto atende por convênio?<span class="material-symbols-outlined shrink-0 text-gold-champagne transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span></summary>
+            <p class="mt-3 border-t border-gold-brushed/15 pt-3 text-sm leading-6 text-on-surface-subtle">O atendimento é particular. Fornecemos recibo e relatório para você solicitar reembolso ao seu plano, quando ele oferecer essa opção.</p>
+          </details>
+          <details class="card-monolith group rounded-xl p-5">
+            <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white [&amp;::-webkit-details-marker]:hidden">O tratamento para emagrecer inclui medicamentos?<span class="material-symbols-outlined shrink-0 text-gold-champagne transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span></summary>
+            <p class="mt-3 border-t border-gold-brushed/15 pt-3 text-sm leading-6 text-on-surface-subtle">Só quando há indicação clínica. A decisão é tomada em consulta, depois da avaliação.</p>
+          </details>
+          <details class="card-monolith group rounded-xl p-5">
+            <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white [&amp;::-webkit-details-marker]:hidden">A consulta inclui bioimpedância?<span class="material-symbols-outlined shrink-0 text-gold-champagne transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span></summary>
+            <p class="mt-3 border-t border-gold-brushed/15 pt-3 text-sm leading-6 text-on-surface-subtle">A inclusão do exame na consulta está em confirmação. Consulte a equipe ao solicitar o agendamento.</p>
+          </details>
+          <details class="card-monolith group rounded-xl p-5">
+            <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white [&amp;::-webkit-details-marker]:hidden">Vocês atendem por telemedicina?<span class="material-symbols-outlined shrink-0 text-gold-champagne transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span></summary>
+            <p class="mt-3 border-t border-gold-brushed/15 pt-3 text-sm leading-6 text-on-surface-subtle">Sim. A consulta online está disponível para pacientes de todo o Brasil.</p>
+          </details>
+          <details class="card-monolith group rounded-xl p-5">
+            <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 text-left text-base font-semibold text-white [&amp;::-webkit-details-marker]:hidden">Onde fica o Instituto?<span class="material-symbols-outlined shrink-0 text-gold-champagne transition-transform group-open:rotate-180" aria-hidden="true">expand_more</span></summary>
+            <p class="mt-3 border-t border-gold-brushed/15 pt-3 text-sm leading-6 text-on-surface-subtle">Na R. Barreto Leme, 2060, no Cambuí, em Campinas.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-t border-gold-brushed/15 bg-racing-green-step-6 px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="agendamento">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-12">
+        <div class="space-y-7 lg:col-span-5">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Agendamento</p>
+            <h2 class="mt-3 font-headline text-3xl text-white sm:text-4xl">Solicite sua consulta</h2>
+            <p class="mt-3 text-base leading-7 text-on-surface-subtle">Preencha os campos e nossa equipe entra em contato para combinar o horário.</p>
+          </div>
+          <address class="not-italic">
+            <dl class="space-y-5">
+              <div class="flex gap-3"><span class="material-symbols-outlined mt-0.5 text-xl text-gold-champagne" aria-hidden="true">location_on</span><div><dt class="font-semibold text-white">Endereço</dt><dd class="mt-1 text-sm leading-6 text-on-surface-subtle">R. Barreto Leme, 2060 – Cambuí, Campinas – SP</dd><dd class="mt-2"><a class="inline-flex min-h-11 items-center gap-1 text-sm text-gold-champagne hover:text-gold-light" href="https://share.google/ulN80TaJiqHJsgTR6" target="_blank" rel="noopener noreferrer">Como chegar <span class="material-symbols-outlined text-base" aria-hidden="true">open_in_new</span></a></dd></div></div>
+              <div class="flex gap-3"><span class="material-symbols-outlined mt-0.5 text-xl text-gold-champagne" aria-hidden="true">schedule</span><div><dt class="font-semibold text-white">Horário</dt><dd class="mt-1 text-sm leading-6 text-on-surface-subtle">Segunda a sexta, das 8h às 19h. Consultas com hora marcada.</dd></div></div>
+              <div class="flex gap-3"><span class="material-symbols-outlined mt-0.5 text-xl text-gold-champagne" aria-hidden="true">chat</span><div><dt class="font-semibold text-white">WhatsApp</dt><dd class="mt-1 text-sm text-on-surface-subtle"><a class="inline-flex min-h-11 items-center text-gold-champagne hover:text-gold-light" href="https://wa.me/5519993410224" target="_blank" rel="noopener noreferrer">(19) 99341-0224</a></dd></div></div>
+              <div class="flex gap-3"><span class="material-symbols-outlined mt-0.5 text-xl text-gold-champagne" aria-hidden="true">videocam</span><div><dt class="font-semibold text-white">Telemedicina</dt><dd class="mt-1 text-sm leading-6 text-on-surface-subtle">Consultas online para todo o Brasil.</dd></div></div>
+            </dl>
+          </address>
+        </div>
+        <div class="lg:col-span-7">
+          <div class="card-monolith rounded-xl p-5 sm:p-8">
+            <div class="mb-6">
+              <h3 class="font-headline text-2xl text-white">Solicitar agendamento</h3>
+              <p class="mt-2 text-sm leading-6 text-on-surface-subtle">Entraremos em contato pelo WhatsApp para combinar o melhor horário.</p>
+            </div>
+            <form id="form-agendamento" class="space-y-4" aria-label="Solicitar agendamento" method="post" action="/#agendamento">
+              <fieldset id="campos-agendamento" class="space-y-4" disabled>
+                <div>
+                  <label class="mb-1.5 block text-sm font-semibold text-white" for="nome">Nome <span class="text-gold-champagne" aria-hidden="true">*</span></label>
+                  <input class="min-h-12 w-full rounded-md border border-gold-brushed/30 bg-racing-green-dark px-3.5 py-3 text-sm text-white placeholder:text-on-surface-muted focus:border-gold-champagne focus:ring-gold-champagne/25" id="nome" name="name" autocomplete="name" placeholder="Como podemos chamar você?" required minlength="2" maxlength="100">
+                </div>
+                <div>
+                  <label class="mb-1.5 block text-sm font-semibold text-white" for="whatsapp">WhatsApp ou telefone <span class="text-gold-champagne" aria-hidden="true">*</span></label>
+                  <input class="min-h-12 w-full rounded-md border border-gold-brushed/30 bg-racing-green-dark px-3.5 py-3 text-sm text-white placeholder:text-on-surface-muted focus:border-gold-champagne focus:ring-gold-champagne/25" id="whatsapp" name="telephone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(19) 99341-0224" required minlength="10" maxlength="20" pattern="[0-9()+.\s-]{10,20}" title="Informe um telefone válido com DDD.">
+                </div>
+                <div>
+                  <label class="mb-1.5 block text-sm font-semibold text-white" for="interesse">O que você procura? <span class="font-normal text-on-surface-subtle">(opcional)</span></label>
+                  <select class="min-h-12 w-full rounded-md border border-gold-brushed/30 bg-racing-green-dark px-3.5 py-3 text-sm text-white focus:border-gold-champagne focus:ring-gold-champagne/25" id="interesse" name="interest">
+                    <option value="">Selecione uma opção</option>
+                    <option>Endocrinologia e metabologia</option>
+                    <option>Emagrecimento e obesidade</option>
+                    <option>Saúde hormonal</option>
+                    <option>Nutrologia</option>
+                    <option>Telemedicina</option>
+                    <option>Ainda não sei</option>
+                  </select>
+                </div>
+                <p class="text-xs leading-5 text-on-surface-subtle" id="privacidade-resumo">Ao solicitar, nome, telefone e interesse serão incluídos em uma mensagem pré-preenchida no WhatsApp. Revise o conteúdo antes de enviar. <a class="font-semibold text-gold-champagne underline underline-offset-2 hover:text-gold-light" href="#politica-privacidade">Política de Privacidade</a>.</p>
+                <p class="text-xs text-on-surface-subtle">Seus dados são usados apenas para o agendamento. Não informe sintomas ou outros dados de saúde.</p>
+                <button id="botao-agendamento" class="flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-gradient-to-r from-gold-champagne to-gold-brushed px-5 py-3 text-sm font-semibold text-racing-green transition-all hover:brightness-105 disabled:cursor-wait disabled:opacity-70" type="submit">Solicitar agendamento <span class="material-symbols-outlined text-lg" aria-hidden="true">arrow_forward</span></button>
+              </fieldset>
+              <p id="status-agendamento" class="min-h-6 text-sm text-gold-light" role="status" aria-live="polite"></p>
+              <noscript><p class="text-sm leading-6 text-on-surface-subtle">Para solicitar sua consulta, fale diretamente com a equipe pelo <a class="font-semibold text-gold-champagne underline" href="https://wa.me/5519993410224">WhatsApp do Instituto</a>.</p></noscript>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-gold-brushed/15 bg-racing-green-step-7 text-surface-bright">
+    <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-12">
+      <div class="grid grid-cols-1 gap-9 md:grid-cols-12">
+        <div class="space-y-4 md:col-span-5">
+          <a class="inline-flex min-h-11 items-center gap-3" href="#inicio" aria-label="Instituto Barreto Bastos — início">
+            <img class="h-10 w-10 rounded-lg border border-gold-brushed/30 object-contain p-1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5Z-bAJQMam-wDtMBisJ8VR9BjCBn6ld-H8_34jrg-3aGlim6uLvQCAC5h7fPnO7BpPG-dYuPPtafD4pnVezFfqbc_bxbGoBLRSVrc2KpiMsB6JNqG0xVephQscuestyEa2p5ZNkROc12r069JHCfzvVOoEwhOxchFmXEW2AYNetbD-z4PK-Z_gV8V4V7CeUXArdpS0eIk-opjQVh2CAz4XQ2uohzTc41P4f66mEWZOWLMD2m_FVjusCajvWXvD0hSxOQ" alt="" width="40" height="40" loading="lazy" decoding="async">
+            <span class="font-headline text-lg text-gold-light">Instituto Barreto Bastos</span>
+          </a>
+          <p class="max-w-md text-sm leading-6 text-on-surface-subtle">Clínica médica de endocrinologia, metabologia e nutrologia em Campinas/SP. Atendimento presencial no Cambuí e por telemedicina.</p>
+        </div>
+        <nav class="md:col-span-3" aria-label="Especialidades e equipe">
+          <h2 class="mb-3 text-xs font-semibold uppercase tracking-[.14em] text-gold-champagne">Especialidades</h2>
+          <ul class="space-y-1">
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="#especialidades">Endocrinologia e Metabologia</a></li>
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="#especialidades">Nutrologia</a></li>
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="#especialidades">Saúde Hormonal</a></li>
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="#corpo-clinico">Corpo Clínico</a></li>
+          </ul>
+        </nav>
+        <nav class="md:col-span-4" aria-label="Links institucionais">
+          <h2 class="mb-3 text-xs font-semibold uppercase tracking-[.14em] text-gold-champagne">Institucional</h2>
+          <ul class="space-y-1">
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="#agendamento">Como chegar</a></li>
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="#politica-privacidade">Política de Privacidade</a></li>
+            <li><a class="inline-flex min-h-11 items-center text-sm text-on-surface-subtle hover:text-gold-champagne" href="https://wa.me/5519993410224" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="mt-9 border-t border-gold-brushed/10 pt-6" id="politica-privacidade" aria-labelledby="titulo-privacidade">
+        <h2 class="text-sm font-semibold text-white" id="titulo-privacidade">Privacidade no agendamento</h2>
+        <p class="mt-2 max-w-4xl text-xs leading-5 text-on-surface-subtle">Esta página não armazena os dados do formulário nem os envia automaticamente a um servidor. Ao solicitar, nome, telefone e interesse escolhido são inseridos em um link que abre uma mensagem pré-preenchida no WhatsApp; o serviço recebe esses dados ao abrir a conversa. A mensagem só é enviada ao Instituto quando você a revisa e toca em “Enviar”. O WhatsApp é um serviço de terceiros e aplica sua própria política de privacidade. Não inclua informações sobre sintomas ou outros dados de saúde.</p>
+        <a class="mt-2 inline-flex min-h-11 items-center text-xs text-gold-champagne underline underline-offset-2 hover:text-gold-light" href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Política de privacidade do WhatsApp <span class="material-symbols-outlined ml-1 text-sm" aria-hidden="true">open_in_new</span></a>
+      </section>
+      <div class="mt-7 flex flex-col gap-3 border-t border-gold-brushed/10 pt-5 text-xs leading-5 text-on-surface-muted sm:flex-row sm:items-center sm:justify-between">
+        <p>© 2026 Instituto Barreto Bastos. Todos os direitos reservados. Responsável técnico: Dr. Gabriel Barreto Bastos – CRM-SP 178994 – RQE 91275 (Endocrinologia e Metabologia).</p>
+        <span class="shrink-0">Campinas · SP</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fixed bottom-4 right-4 z-40 inline-flex min-h-12 items-center gap-2 rounded-full border border-gold-brushed/45 bg-racing-green-dark/95 px-4 text-sm font-semibold text-gold-light shadow-xl backdrop-blur-md transition-colors hover:border-gold-champagne sm:bottom-6 sm:right-6" href="https://wa.me/5519993410224" target="_blank" rel="noopener noreferrer" aria-label="Fale com o Instituto Barreto Bastos pelo WhatsApp">
+    <span class="material-symbols-outlined text-xl" aria-hidden="true">chat</span><span class="hidden sm:inline">WhatsApp</span>
+  </a>
+
+  <script>
+    const mobileMenu = document.getElementById('menu-mobile');
+    mobileMenu.querySelectorAll('nav a').forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileMenu.open = false;
+      });
+    });
+
+    const appointmentForm = document.getElementById('form-agendamento');
+    const appointmentFields = document.getElementById('campos-agendamento');
+    const appointmentButton = document.getElementById('botao-agendamento');
+    const appointmentStatus = document.getElementById('status-agendamento');
+    const appointmentName = document.getElementById('nome');
+    const appointmentPhone = document.getElementById('whatsapp');
+    const appointmentInterest = document.getElementById('interesse');
+    let appointmentIsSubmitting = false;
+
+    appointmentFields.disabled = false;
+    appointmentForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (appointmentIsSubmitting || !appointmentForm.reportValidity()) return;
+
+      const name = appointmentName.value.trim();
+      const phone = appointmentPhone.value.trim();
+      const digits = phone.replace(/\D/g, '');
+      if (name.length < 2) {
+        appointmentName.setCustomValidity('Informe seu nome.');
+        appointmentName.reportValidity();
+        appointmentName.addEventListener('input', () => appointmentName.setCustomValidity(''), { once: true });
+        return;
+      }
+      if (digits.length < 10 || digits.length > 13) {
+        appointmentPhone.setCustomValidity('Informe um telefone válido com DDD.');
+        appointmentPhone.reportValidity();
+        appointmentPhone.addEventListener('input', () => appointmentPhone.setCustomValidity(''), { once: true });
+        return;
+      }
+
+      appointmentIsSubmitting = true;
+      appointmentButton.disabled = true;
+      appointmentForm.setAttribute('aria-busy', 'true');
+      appointmentStatus.textContent = 'Abrindo o WhatsApp. Revise a mensagem e toque em Enviar para concluir a solicitação.';
+
+      const message = [
+        'Olá! Quero solicitar uma consulta no Instituto Barreto Bastos.',
+        'Nome: ' + name,
+        'Telefone: ' + phone,
+        appointmentInterest.value ? 'Interesse: ' + appointmentInterest.value : ''
+      ].filter(Boolean).join('\n');
+      const whatsappUrl = new URL('https://wa.me/5519993410224');
+      whatsappUrl.searchParams.set('text', message);
+      window.location.assign(whatsappUrl.toString());
+    });
+
+    window.addEventListener('pageshow', () => {
+      appointmentIsSubmitting = false;
+      appointmentButton.disabled = false;
+      appointmentForm.removeAttribute('aria-busy');
+      appointmentStatus.textContent = '';
+    });
+  </script>
+</body>
+</html>
