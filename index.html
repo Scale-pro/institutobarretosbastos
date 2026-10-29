@@ -212,8 +212,8 @@
         </article>
         <a class="card-monolith group rounded-xl p-5 transition-colors hover:border-gold-champagne/50" href="#corpo-clinico">
           <span class="material-symbols-outlined text-2xl text-gold-champagne" aria-hidden="true">groups</span>
-          <h2 class="mt-3 flex items-center gap-2 text-base font-semibold text-white">Equipe médica <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1" aria-hidden="true">arrow_forward</span></h2>
-          <p class="mt-1 text-sm leading-6 text-on-surface-subtle">Conheça quem conduz o seu cuidado.</p>
+          <h2 class="mt-3 flex items-center gap-2 text-base font-semibold text-white">Nossa equipe <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1" aria-hidden="true">arrow_forward</span></h2>
+          <p class="mt-1 text-sm leading-6 text-on-surface-subtle">Médicos e nutricionistas que conduzem o seu cuidado.</p>
         </a>
       </div>
     </section>
@@ -379,35 +379,78 @@
 
     <section class="border-y border-gold-brushed/15 bg-racing-green-dark px-4 py-16 sm:px-6 lg:px-12 lg:py-24" id="corpo-clinico">
       <div class="mx-auto max-w-7xl">
-        <div class="mx-auto mb-10 max-w-3xl text-center">
+        <div class="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
           <p class="text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Corpo clínico</p>
           <h2 class="mt-3 font-headline text-3xl text-white sm:text-4xl">Quem cuida de você</h2>
-          <p class="mt-3 text-base leading-7 text-on-surface-subtle">Médicos com formação em endocrinologia e nutrologia, atuando de forma integrada.</p>
+          <p class="mt-3 text-base leading-7 text-on-surface-subtle">Médicos e nutricionistas atuando de forma integrada no mesmo plano de cuidado.</p>
         </div>
-        <div class="grid grid-cols-1 items-stretch gap-5 lg:grid-cols-2">
-          <article class="card-monolith flex flex-col overflow-hidden rounded-xl sm:flex-row">
-            <div class="aspect-[4/3] w-full shrink-0 overflow-hidden bg-racing-green sm:aspect-auto sm:w-5/12">
-              <img class="h-full w-full object-cover" src="/assets/dr-gabriel-barreto-bastos.png" alt="Dr. Gabriel Barreto Bastos, médico endocrinologista e metabologista" loading="lazy" decoding="async">
+
+        <article class="card-monolith overflow-hidden rounded-xl lg:grid lg:grid-cols-12">
+          <div class="relative aspect-[4/5] overflow-hidden bg-racing-green sm:aspect-[4/3] lg:col-span-5 lg:aspect-auto lg:min-h-[36rem]">
+            <img class="absolute inset-0 h-full w-full object-cover object-[50%_12%]" src="/assets/dr-gabriel-barreto-bastos.png" alt="Dr. Gabriel Barreto Bastos, médico endocrinologista e metabologista" width="566" height="920" loading="lazy" decoding="async">
+          </div>
+          <div class="flex flex-col justify-center p-6 sm:p-8 lg:col-span-7 lg:p-12">
+            <span class="w-fit rounded-sm border border-gold-brushed/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-champagne">Responsável técnico</span>
+            <p class="mt-5 text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Endocrinologia e Metabologia</p>
+            <h3 class="mt-2 font-headline text-3xl text-white sm:text-4xl lg:text-5xl">Dr. Gabriel Barreto Bastos</h3>
+            <p class="mt-3 text-sm font-semibold text-gold-light">CRM-SP 178994 | RQE 91275</p>
+            <p class="mt-5 text-base leading-7 text-on-surface-subtle">Médico formado pela Escola Bahiana de Medicina, com residência em Clínica Médica no Hospital Mário Gatti (Campinas) e em Endocrinologia no Hospital Santa Marcelina (São Paulo). Atende diabetes, tireoide, obesidade e saúde hormonal, e é professor em cursos de pós-graduação médica.</p>
+            <ul class="mt-6 flex flex-wrap gap-2" aria-label="Áreas de atuação">
+              <li class="rounded-sm border border-gold-brushed/25 px-3 py-1.5 text-xs text-gold-light">Diabetes</li>
+              <li class="rounded-sm border border-gold-brushed/25 px-3 py-1.5 text-xs text-gold-light">Tireoide</li>
+              <li class="rounded-sm border border-gold-brushed/25 px-3 py-1.5 text-xs text-gold-light">Obesidade</li>
+              <li class="rounded-sm border border-gold-brushed/25 px-3 py-1.5 text-xs text-gold-light">Saúde hormonal</li>
+            </ul>
+            <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-gold-brushed/15 pt-6">
+              <a class="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-gradient-to-r from-gold-champagne to-gold-brushed px-6 text-sm font-semibold text-racing-green hover:brightness-105" href="#agendamento">Agendar consulta <span class="material-symbols-outlined text-lg" aria-hidden="true">arrow_forward</span></a>
+              <span class="text-sm text-on-surface-subtle">Presencial e telemedicina</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="mb-6 mt-14 flex items-center gap-4">
+          <h3 class="shrink-0 text-xs font-semibold uppercase tracking-[.16em] text-gold-champagne">Nutrição e equipe</h3>
+          <span class="h-px flex-1 bg-gold-brushed/20" aria-hidden="true"></span>
+        </div>
+
+        <div class="grid grid-cols-1 items-stretch gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <article class="card-monolith flex flex-col overflow-hidden rounded-xl">
+            <div class="aspect-[4/5] w-full overflow-hidden bg-racing-green">
+              <img class="h-full w-full object-cover object-top" src="/assets/israel-lopes-de-lima.webp" alt="Israel Lopes de Lima, nutricionista" width="800" height="999" loading="lazy" decoding="async">
             </div>
             <div class="flex flex-1 flex-col p-5 sm:p-6">
-              <span class="w-fit rounded-sm border border-gold-brushed/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-champagne">Responsável técnico</span>
-              <p class="mt-4 text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Endocrinologia e Metabologia</p>
-              <h3 class="mt-1 font-headline text-2xl text-white">Dr. Gabriel Barreto Bastos</h3>
-              <p class="mt-2 text-sm text-on-surface-subtle">CRM-SP 178994 | RQE 91275</p>
-              <p class="mt-4 flex-1 text-sm leading-6 text-on-surface-subtle">Médico formado pela Escola Bahiana de Medicina, com residência em Clínica Médica no Hospital Mário Gatti (Campinas) e em Endocrinologia no Hospital Santa Marcelina (São Paulo). Atende diabetes, tireoide, obesidade e saúde hormonal, e é professor em cursos de pós-graduação médica.</p>
-              <div class="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-gold-brushed/15 pt-4">
-                <span class="text-xs text-on-surface-subtle">Presencial e telemedicina</span>
-                <a class="inline-flex min-h-11 items-center gap-1 text-sm font-semibold text-gold-champagne hover:text-gold-light" href="#agendamento">Agendar <span class="material-symbols-outlined text-base" aria-hidden="true">arrow_forward</span></a>
-              </div>
+              <p class="text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Nutrição esportiva e estética</p>
+              <h3 class="mt-1 font-headline text-2xl text-white">Israel Lopes de Lima</h3>
+              <p class="mt-2 text-sm font-semibold text-gold-light">Nutricionista | CRN 50688</p>
+              <dl class="mt-4 flex-1 space-y-3 text-sm leading-6 text-on-surface-subtle">
+                <div><dt class="text-[11px] font-semibold uppercase tracking-wider text-gold-brushed">Formação</dt><dd>Nutricionista</dd></div>
+                <div><dt class="text-[11px] font-semibold uppercase tracking-wider text-gold-brushed">Mestrado</dt><dd>Mestre em Alimentos (UNICAMP)</dd></div>
+              </dl>
             </div>
           </article>
-          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-7">
+          <article class="card-monolith flex flex-col overflow-hidden rounded-xl">
+            <div class="aspect-[4/5] w-full overflow-hidden bg-racing-green">
+              <img class="h-full w-full object-cover object-top" src="/assets/isabela-emiliorelli.webp" alt="Isabela Emiliorelli, nutricionista" width="800" height="999" loading="lazy" decoding="async">
+            </div>
+            <div class="flex flex-1 flex-col p-5 sm:p-6">
+              <p class="text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Nutrição clínica e esportiva</p>
+              <h3 class="mt-1 font-headline text-2xl text-white">Isabela Emiliorelli</h3>
+              <p class="mt-2 text-sm font-semibold text-gold-light">Nutricionista</p>
+              <dl class="mt-4 flex-1 space-y-3 text-sm leading-6 text-on-surface-subtle">
+                <div><dt class="text-[11px] font-semibold uppercase tracking-wider text-gold-brushed">Graduação</dt><dd>Nutrição</dd></div>
+                <div><dt class="text-[11px] font-semibold uppercase tracking-wider text-gold-brushed">Especialização</dt><dd>Nutrição Clínica e Esportiva</dd></div>
+                <div><dt class="text-[11px] font-semibold uppercase tracking-wider text-gold-brushed">Mestrado</dt><dd>Biologia Molecular e Morfofuncional</dd></div>
+                <div><dt class="text-[11px] font-semibold uppercase tracking-wider text-gold-brushed">Curso</dt><dd>Instrutor ISAK nível 3</dd></div>
+              </dl>
+            </div>
+          </article>
+          <article class="card-monolith flex flex-col rounded-xl p-5 sm:p-7 md:col-span-2 lg:col-span-1">
             <span class="w-fit rounded-sm border border-gold-brushed/30 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold-champagne">Dados profissionais em confirmação</span>
             <p class="mt-5 text-xs font-semibold uppercase tracking-[.14em] text-gold-brushed">Médica</p>
             <h3 class="mt-1 font-headline text-2xl text-white">Dra. Fernanda</h3>
             <p class="mt-2 text-sm text-on-surface-subtle">CRM-SP 272076 | CRM-BA 39655</p>
             <p class="mt-5 text-sm leading-6 text-on-surface-subtle">O sobrenome completo, o RQE e os dados de formação aguardam confirmação. A imagem profissional também será incluída após validação.</p>
-            <div class="mt-5 flex-1 rounded-lg border border-dashed border-gold-brushed/25 bg-racing-green-dark/50 p-4 text-sm leading-6 text-on-surface-subtle">A designação profissional e a biografia serão atualizadas após a conferência dos registros.</div>
+            <div class="mt-5 rounded-lg border border-dashed border-gold-brushed/25 bg-racing-green-dark/50 p-4 text-sm leading-6 text-on-surface-subtle">A designação profissional e a biografia serão atualizadas após a conferência dos registros.</div>
           </article>
         </div>
       </div>
